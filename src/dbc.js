@@ -103,7 +103,9 @@ DBC.prototype.read = function () {
 		dbc.records = buffer.readUInt32LE(4);
 		dbc.recordSize = buffer.readUInt32LE(12);
 
+    /**@type {buffer} */
 		var recordBlock;
+    /**@type {buffer} */
 		var recordData;
 		var stringBlockPosition = buffer.length - buffer.readUInt32LE(16);
 		var strings = dbc.parseStringBlock(buffer.slice(stringBlockPosition));
@@ -128,6 +130,8 @@ DBC.prototype.read = function () {
 					value = recordData.readInt32LE(pointer)
 				} else if (type === 'uint') {
 					value = recordData.readUInt32LE(pointer);
+        } else if (type === 'float') {
+					value = recordData.readFloatLE(pointer);
 				} else if (type === 'byte') {
 					value = recordData.readInt8(pointer);
 				} else if (type === 'string') {

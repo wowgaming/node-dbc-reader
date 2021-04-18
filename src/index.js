@@ -57,7 +57,7 @@ function toSql(fileName, row) {
   let tableName = `${fileName}_dbc`;
   let values = Object.values(row).map(v=>typeof v === "string" ? `"${v}"` : v);
   let keys = Object.keys(row).map(v=>"`"+v+"`");
-  return `INSERT INTO ${tableName} (${keys})\n VALUES (${values});`;
+  return `INSERT IGNORE INTO ${tableName} (${keys})\n VALUES (${values});`;
 }
 
 function extractDBC(dbcName, { search, columns, outType, file, condition }) {
