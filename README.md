@@ -2,7 +2,13 @@
 
 !!!THIS IS AN ALPHA VERSION, DO NOT USE EXPORTED SQL ON YOUR DB!!!
 
-Run this command to read the command instructions
+## Install
+
+`npm install`
+
+## Getting started
+
+Run this command to read the instructions
 
 `npm run start -- --help`
 
