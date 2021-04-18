@@ -4,6 +4,8 @@ This command line utility allows you to read and search data within a dbc file a
 
 !!!THIS IS AN ALPHA VERSION, DO NOT USE EXPORTED SQL ON YOUR DB!!!
 
+Only Spell.dbc is supported at the moment. You can contribute by adding schemas to the /src/schemas folder
+
 ## Install
 
 `npm install`
