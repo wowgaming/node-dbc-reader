@@ -1,23 +1,14 @@
 'use strict';
 
-var Q = require('q');
-var fs = require('fs');
+var fsp = require('fs').promises;
 var path = require('path');
 var Schema = require(path.join(__dirname, 'schema'));
 var MAGIC_NUMBER = 1128416343;
 
 function readFile (filename, options) {
-	var deferred = Q.defer();
-
-	fs.readFile(filename, options, function (err, data) {
-		if(err) {
-			return deferred.reject(err);
-		}
-
-		deferred.resolve(data);
+	return fsp.readFile(filename, options).then(function (data) {
+		return data
 	});
-
-	return deferred.promise;
 }
 
 function toCSV (array) {
