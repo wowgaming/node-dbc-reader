@@ -96,6 +96,7 @@ function extractDBC(dbcName, { search, columns, outType, file, condition }) {
 
     if (file) {
       fs.writeFileSync(file,result.join('\n'));
+      console.log("Output file created: "+file);
       return;
     }
 
