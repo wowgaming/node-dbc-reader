@@ -120,7 +120,7 @@ const actionCommand = async (dbcNames, { search, columns, outType, file }, comma
   }
 }
 
-command.name("acore-dbc")
+command.name("node-dbc-reader")
   .arguments('<dbcname...>')
   .option('-s,--search <text>', 'Search text, it supports regex and advanced patterns. Check the README for further information')
   .option('-c,--columns <columns...>', 'Comma separated list of DBC columns to use for the search, if not specified the search will run on all columns')

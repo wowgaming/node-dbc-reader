@@ -1,7 +1,7 @@
 {
-  "name": "azerothcore-dbc-read",
+  "name": "node-dbc-read",
   "version": "1.0.0",
-  "description": "DBC viewer and exporter for azerothcore",
+  "description": "DBC viewer and exporter for node",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
