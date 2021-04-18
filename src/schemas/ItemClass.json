@@ -1,0 +1,66 @@
+[
+	{
+		"name": "id",
+		"type": "uint"
+	},
+	{
+		"name": "class",
+		"type": "uint"
+	},
+	{
+		"name": "isWeapon",
+		"type": "uint"
+	},
+	{
+		"name": "name",
+		"type": "string"
+	},
+	{
+		"type": "int"
+	},
+	{
+		"type": "int"
+	},
+	{
+		"type": "int"
+	},
+	{
+		"type": "int"
+	},
+	{
+		"type": "int"
+	},
+	{
+		"type": "int"
+	},
+	{
+		"type": "int"
+	},
+	{
+		"type": "int"
+	},
+	{
+		"type": "int"
+	},
+	{
+		"type": "int"
+	},
+	{
+		"type": "int"
+	},
+	{
+		"type": "int"
+	},
+	{
+		"type": "int"
+	},
+	{
+		"type": "int"
+	},
+	{
+		"type": "int"
+	},
+	{
+		"type": "int"
+	}
+]

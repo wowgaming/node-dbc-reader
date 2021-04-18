@@ -1,0 +1,17 @@
+{
+  "name": "azerothcore-dbc-read",
+  "version": "1.0.0",
+  "description": "DBC viewer and exporter for azerothcore",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yehonal",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "commander": "^7.2.0",
+    "inquirer": "^8.0.0",
+    "q": "^1.5.1"
+  }
+}
