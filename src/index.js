@@ -74,7 +74,7 @@ function extractDBC(dbcName, { search, columns, outType, file, condition }) {
   return dbc.toJSON().then(function (dbcTable) {
     const foundList = [];
 
-    let isAdvanced = search.includes(SUBST_PATTERN);
+    let isAdvanced = search && search.includes(SUBST_PATTERN);
 
     for (const row of dbcTable) {
       const found = searchInRow(row, search, columns, isAdvanced);
@@ -88,14 +88,15 @@ function extractDBC(dbcName, { search, columns, outType, file, condition }) {
         for (const row of foundList) {
           result.push(toSql(dbcName,row));
         }
+        result = result.join('\n');
       break;
       default:
-        result=foundList;
+        result=JSON.stringify(foundList, null, 2);
       break;
     }
 
     if (file) {
-      fs.writeFileSync(file,result.join('\n'));
+      fs.writeFileSync(file,result);
       console.log("Output file created: "+file);
       return;
     }
@@ -122,7 +123,7 @@ const actionCommand = async (dbcNames, { search, columns, outType, file }, comma
 command.name("acore-dbc")
   .arguments('<dbcname...>')
   .option('-s,--search <text>', 'Search text, it supports regex and advanced patterns. Check the README for further information')
-  .option('-c,--columns <columns...>', 'DBC columns to use for the search, if not specified the search will run on all columns')
+  .option('-c,--columns <columns...>', 'Comma separated list of DBC columns to use for the search, if not specified the search will run on all columns')
   .option('-t,--out-type [type]',"Output types: sql, json", "json")
   .option('-f,--file <filename>', 'Whether to save in a file or not')
   .action(actionCommand);
