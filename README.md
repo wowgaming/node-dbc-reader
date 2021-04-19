@@ -1,4 +1,4 @@
-# ACORE-DBC-READER
+# NODE-DBC-READER
 
 This command line utility allows you to read and search data within a dbc file and export the result in a json or sql output
 
