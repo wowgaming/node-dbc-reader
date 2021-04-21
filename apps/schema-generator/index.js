@@ -66,6 +66,8 @@ async function main() {
     
     fs.writeFileSync(`output/${tableList[table.name]}.json`, JSON.stringify(dbcSchema, null, 2));
   }
+
+  console.log("Schemas exported! Check the output folder");
 }
 
 main();
