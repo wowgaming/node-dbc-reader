@@ -1,0 +1,30 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "GameObjectsID",
+    "type": "int"
+  },
+  {
+    "name": "TimeIndex",
+    "type": "int"
+  },
+  {
+    "name": "RotX",
+    "type": "float"
+  },
+  {
+    "name": "RotY",
+    "type": "float"
+  },
+  {
+    "name": "RotZ",
+    "type": "float"
+  },
+  {
+    "name": "RotW",
+    "type": "float"
+  }
+]

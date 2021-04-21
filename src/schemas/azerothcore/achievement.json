@@ -1,0 +1,250 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Faction",
+    "type": "int"
+  },
+  {
+    "name": "Instance_Id",
+    "type": "int"
+  },
+  {
+    "name": "Supercedes",
+    "type": "int"
+  },
+  {
+    "name": "Title_Lang_enUS",
+    "type": "string"
+  },
+  {
+    "name": "Title_Lang_enGB",
+    "type": "string"
+  },
+  {
+    "name": "Title_Lang_koKR",
+    "type": "string"
+  },
+  {
+    "name": "Title_Lang_frFR",
+    "type": "string"
+  },
+  {
+    "name": "Title_Lang_deDE",
+    "type": "string"
+  },
+  {
+    "name": "Title_Lang_enCN",
+    "type": "string"
+  },
+  {
+    "name": "Title_Lang_zhCN",
+    "type": "string"
+  },
+  {
+    "name": "Title_Lang_enTW",
+    "type": "string"
+  },
+  {
+    "name": "Title_Lang_zhTW",
+    "type": "string"
+  },
+  {
+    "name": "Title_Lang_esES",
+    "type": "string"
+  },
+  {
+    "name": "Title_Lang_esMX",
+    "type": "string"
+  },
+  {
+    "name": "Title_Lang_ruRU",
+    "type": "string"
+  },
+  {
+    "name": "Title_Lang_ptPT",
+    "type": "string"
+  },
+  {
+    "name": "Title_Lang_ptBR",
+    "type": "string"
+  },
+  {
+    "name": "Title_Lang_itIT",
+    "type": "string"
+  },
+  {
+    "name": "Title_Lang_Unk",
+    "type": "string"
+  },
+  {
+    "name": "Title_Lang_Mask",
+    "type": "uint"
+  },
+  {
+    "name": "Description_Lang_enUS",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_enGB",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_koKR",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_frFR",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_deDE",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_enCN",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_zhCN",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_enTW",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_zhTW",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_esES",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_esMX",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_ruRU",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_ptPT",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_ptBR",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_itIT",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_Unk",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_Mask",
+    "type": "uint"
+  },
+  {
+    "name": "Category",
+    "type": "int"
+  },
+  {
+    "name": "Points",
+    "type": "int"
+  },
+  {
+    "name": "Ui_Order",
+    "type": "int"
+  },
+  {
+    "name": "Flags",
+    "type": "int"
+  },
+  {
+    "name": "IconID",
+    "type": "int"
+  },
+  {
+    "name": "Reward_Lang_enUS",
+    "type": "string"
+  },
+  {
+    "name": "Reward_Lang_enGB",
+    "type": "string"
+  },
+  {
+    "name": "Reward_Lang_koKR",
+    "type": "string"
+  },
+  {
+    "name": "Reward_Lang_frFR",
+    "type": "string"
+  },
+  {
+    "name": "Reward_Lang_deDE",
+    "type": "string"
+  },
+  {
+    "name": "Reward_Lang_enCN",
+    "type": "string"
+  },
+  {
+    "name": "Reward_Lang_zhCN",
+    "type": "string"
+  },
+  {
+    "name": "Reward_Lang_enTW",
+    "type": "string"
+  },
+  {
+    "name": "Reward_Lang_zhTW",
+    "type": "string"
+  },
+  {
+    "name": "Reward_Lang_esES",
+    "type": "string"
+  },
+  {
+    "name": "Reward_Lang_esMX",
+    "type": "string"
+  },
+  {
+    "name": "Reward_Lang_ruRU",
+    "type": "string"
+  },
+  {
+    "name": "Reward_Lang_ptPT",
+    "type": "string"
+  },
+  {
+    "name": "Reward_Lang_ptBR",
+    "type": "string"
+  },
+  {
+    "name": "Reward_Lang_itIT",
+    "type": "string"
+  },
+  {
+    "name": "Reward_Lang_Unk",
+    "type": "string"
+  },
+  {
+    "name": "Reward_Lang_Mask",
+    "type": "uint"
+  },
+  {
+    "name": "Minimum_Criteria",
+    "type": "int"
+  },
+  {
+    "name": "Shares_Criteria",
+    "type": "int"
+  }
+]

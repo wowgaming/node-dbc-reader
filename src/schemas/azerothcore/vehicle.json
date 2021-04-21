@@ -1,0 +1,162 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Flags",
+    "type": "int"
+  },
+  {
+    "name": "TurnSpeed",
+    "type": "float"
+  },
+  {
+    "name": "PitchSpeed",
+    "type": "float"
+  },
+  {
+    "name": "PitchMin",
+    "type": "float"
+  },
+  {
+    "name": "PitchMax",
+    "type": "float"
+  },
+  {
+    "name": "SeatID_1",
+    "type": "int"
+  },
+  {
+    "name": "SeatID_2",
+    "type": "int"
+  },
+  {
+    "name": "SeatID_3",
+    "type": "int"
+  },
+  {
+    "name": "SeatID_4",
+    "type": "int"
+  },
+  {
+    "name": "SeatID_5",
+    "type": "int"
+  },
+  {
+    "name": "SeatID_6",
+    "type": "int"
+  },
+  {
+    "name": "SeatID_7",
+    "type": "int"
+  },
+  {
+    "name": "SeatID_8",
+    "type": "int"
+  },
+  {
+    "name": "MouseLookOffsetPitch",
+    "type": "float"
+  },
+  {
+    "name": "CameraFadeDistScalarMin",
+    "type": "float"
+  },
+  {
+    "name": "CameraFadeDistScalarMax",
+    "type": "float"
+  },
+  {
+    "name": "CameraPitchOffset",
+    "type": "float"
+  },
+  {
+    "name": "FacingLimitRight",
+    "type": "float"
+  },
+  {
+    "name": "FacingLimitLeft",
+    "type": "float"
+  },
+  {
+    "name": "MsslTrgtTurnLingering",
+    "type": "float"
+  },
+  {
+    "name": "MsslTrgtPitchLingering",
+    "type": "float"
+  },
+  {
+    "name": "MsslTrgtMouseLingering",
+    "type": "float"
+  },
+  {
+    "name": "MsslTrgtEndOpacity",
+    "type": "float"
+  },
+  {
+    "name": "MsslTrgtArcSpeed",
+    "type": "float"
+  },
+  {
+    "name": "MsslTrgtArcRepeat",
+    "type": "float"
+  },
+  {
+    "name": "MsslTrgtArcWidth",
+    "type": "float"
+  },
+  {
+    "name": "MsslTrgtImpactRadius_1",
+    "type": "float"
+  },
+  {
+    "name": "MsslTrgtImpactRadius_2",
+    "type": "float"
+  },
+  {
+    "name": "MsslTrgtArcTexture",
+    "type": "string"
+  },
+  {
+    "name": "MsslTrgtImpactTexture",
+    "type": "string"
+  },
+  {
+    "name": "MsslTrgtImpactModel_1",
+    "type": "string"
+  },
+  {
+    "name": "MsslTrgtImpactModel_2",
+    "type": "string"
+  },
+  {
+    "name": "CameraYawOffset",
+    "type": "float"
+  },
+  {
+    "name": "UilocomotionType",
+    "type": "int"
+  },
+  {
+    "name": "MsslTrgtImpactTexRadius",
+    "type": "float"
+  },
+  {
+    "name": "VehicleUIIndicatorID",
+    "type": "int"
+  },
+  {
+    "name": "PowerDisplayID_1",
+    "type": "int"
+  },
+  {
+    "name": "PowerDisplayID_2",
+    "type": "int"
+  },
+  {
+    "name": "PowerDisplayID_3",
+    "type": "int"
+  }
+]

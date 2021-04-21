@@ -1,0 +1,98 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Charlevel",
+    "type": "int"
+  },
+  {
+    "name": "ShoulderBudget",
+    "type": "int"
+  },
+  {
+    "name": "TrinketBudget",
+    "type": "int"
+  },
+  {
+    "name": "WeaponBudget1H",
+    "type": "int"
+  },
+  {
+    "name": "RangedBudget",
+    "type": "int"
+  },
+  {
+    "name": "ClothShoulderArmor",
+    "type": "int"
+  },
+  {
+    "name": "LeatherShoulderArmor",
+    "type": "int"
+  },
+  {
+    "name": "MailShoulderArmor",
+    "type": "int"
+  },
+  {
+    "name": "PlateShoulderArmor",
+    "type": "int"
+  },
+  {
+    "name": "WeaponDPS1H",
+    "type": "int"
+  },
+  {
+    "name": "WeaponDPS2H",
+    "type": "int"
+  },
+  {
+    "name": "SpellcasterDPS1H",
+    "type": "int"
+  },
+  {
+    "name": "SpellcasterDPS2H",
+    "type": "int"
+  },
+  {
+    "name": "RangedDPS",
+    "type": "int"
+  },
+  {
+    "name": "WandDPS",
+    "type": "int"
+  },
+  {
+    "name": "SpellPower",
+    "type": "int"
+  },
+  {
+    "name": "PrimaryBudget",
+    "type": "int"
+  },
+  {
+    "name": "TertiaryBudget",
+    "type": "int"
+  },
+  {
+    "name": "ClothCloakArmor",
+    "type": "int"
+  },
+  {
+    "name": "ClothChestArmor",
+    "type": "int"
+  },
+  {
+    "name": "LeatherChestArmor",
+    "type": "int"
+  },
+  {
+    "name": "MailChestArmor",
+    "type": "int"
+  },
+  {
+    "name": "PlateChestArmor",
+    "type": "int"
+  }
+]

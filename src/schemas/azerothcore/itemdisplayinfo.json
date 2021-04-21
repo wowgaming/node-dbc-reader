@@ -1,0 +1,102 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "ModelName_1",
+    "type": "string"
+  },
+  {
+    "name": "ModelName_2",
+    "type": "string"
+  },
+  {
+    "name": "ModelTexture_1",
+    "type": "string"
+  },
+  {
+    "name": "ModelTexture_2",
+    "type": "string"
+  },
+  {
+    "name": "InventoryIcon_1",
+    "type": "string"
+  },
+  {
+    "name": "InventoryIcon_2",
+    "type": "string"
+  },
+  {
+    "name": "GeosetGroup_1",
+    "type": "int"
+  },
+  {
+    "name": "GeosetGroup_2",
+    "type": "int"
+  },
+  {
+    "name": "GeosetGroup_3",
+    "type": "int"
+  },
+  {
+    "name": "Flags",
+    "type": "int"
+  },
+  {
+    "name": "SpellVisualID",
+    "type": "int"
+  },
+  {
+    "name": "GroupSoundIndex",
+    "type": "int"
+  },
+  {
+    "name": "HelmetGeosetVis_1",
+    "type": "int"
+  },
+  {
+    "name": "HelmetGeosetVis_2",
+    "type": "int"
+  },
+  {
+    "name": "Texture_1",
+    "type": "string"
+  },
+  {
+    "name": "Texture_2",
+    "type": "string"
+  },
+  {
+    "name": "Texture_3",
+    "type": "string"
+  },
+  {
+    "name": "Texture_4",
+    "type": "string"
+  },
+  {
+    "name": "Texture_5",
+    "type": "string"
+  },
+  {
+    "name": "Texture_6",
+    "type": "string"
+  },
+  {
+    "name": "Texture_7",
+    "type": "string"
+  },
+  {
+    "name": "Texture_8",
+    "type": "string"
+  },
+  {
+    "name": "ItemVisual",
+    "type": "int"
+  },
+  {
+    "name": "ParticleColorID",
+    "type": "int"
+  }
+]

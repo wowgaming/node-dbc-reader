@@ -1,0 +1,66 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "HonorPoints",
+    "type": "int"
+  },
+  {
+    "name": "ArenaPoints",
+    "type": "int"
+  },
+  {
+    "name": "ArenaBracket",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_1",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_2",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_3",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_4",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_5",
+    "type": "int"
+  },
+  {
+    "name": "ItemCount_1",
+    "type": "int"
+  },
+  {
+    "name": "ItemCount_2",
+    "type": "int"
+  },
+  {
+    "name": "ItemCount_3",
+    "type": "int"
+  },
+  {
+    "name": "ItemCount_4",
+    "type": "int"
+  },
+  {
+    "name": "ItemCount_5",
+    "type": "int"
+  },
+  {
+    "name": "RequiredArenaRating",
+    "type": "int"
+  },
+  {
+    "name": "ItemPurchaseGroup",
+    "type": "int"
+  }
+]

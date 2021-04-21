@@ -1,0 +1,222 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Duration_1",
+    "type": "int"
+  },
+  {
+    "name": "Duration_2",
+    "type": "int"
+  },
+  {
+    "name": "Duration_3",
+    "type": "int"
+  },
+  {
+    "name": "Duration_4",
+    "type": "int"
+  },
+  {
+    "name": "Duration_5",
+    "type": "int"
+  },
+  {
+    "name": "Duration_6",
+    "type": "int"
+  },
+  {
+    "name": "Duration_7",
+    "type": "int"
+  },
+  {
+    "name": "Duration_8",
+    "type": "int"
+  },
+  {
+    "name": "Duration_9",
+    "type": "int"
+  },
+  {
+    "name": "Duration_10",
+    "type": "int"
+  },
+  {
+    "name": "Date_1",
+    "type": "int"
+  },
+  {
+    "name": "Date_2",
+    "type": "int"
+  },
+  {
+    "name": "Date_3",
+    "type": "int"
+  },
+  {
+    "name": "Date_4",
+    "type": "int"
+  },
+  {
+    "name": "Date_5",
+    "type": "int"
+  },
+  {
+    "name": "Date_6",
+    "type": "int"
+  },
+  {
+    "name": "Date_7",
+    "type": "int"
+  },
+  {
+    "name": "Date_8",
+    "type": "int"
+  },
+  {
+    "name": "Date_9",
+    "type": "int"
+  },
+  {
+    "name": "Date_10",
+    "type": "int"
+  },
+  {
+    "name": "Date_11",
+    "type": "int"
+  },
+  {
+    "name": "Date_12",
+    "type": "int"
+  },
+  {
+    "name": "Date_13",
+    "type": "int"
+  },
+  {
+    "name": "Date_14",
+    "type": "int"
+  },
+  {
+    "name": "Date_15",
+    "type": "int"
+  },
+  {
+    "name": "Date_16",
+    "type": "int"
+  },
+  {
+    "name": "Date_17",
+    "type": "int"
+  },
+  {
+    "name": "Date_18",
+    "type": "int"
+  },
+  {
+    "name": "Date_19",
+    "type": "int"
+  },
+  {
+    "name": "Date_20",
+    "type": "int"
+  },
+  {
+    "name": "Date_21",
+    "type": "int"
+  },
+  {
+    "name": "Date_22",
+    "type": "int"
+  },
+  {
+    "name": "Date_23",
+    "type": "int"
+  },
+  {
+    "name": "Date_24",
+    "type": "int"
+  },
+  {
+    "name": "Date_25",
+    "type": "int"
+  },
+  {
+    "name": "Date_26",
+    "type": "int"
+  },
+  {
+    "name": "Region",
+    "type": "int"
+  },
+  {
+    "name": "Looping",
+    "type": "int"
+  },
+  {
+    "name": "CalendarFlags_1",
+    "type": "int"
+  },
+  {
+    "name": "CalendarFlags_2",
+    "type": "int"
+  },
+  {
+    "name": "CalendarFlags_3",
+    "type": "int"
+  },
+  {
+    "name": "CalendarFlags_4",
+    "type": "int"
+  },
+  {
+    "name": "CalendarFlags_5",
+    "type": "int"
+  },
+  {
+    "name": "CalendarFlags_6",
+    "type": "int"
+  },
+  {
+    "name": "CalendarFlags_7",
+    "type": "int"
+  },
+  {
+    "name": "CalendarFlags_8",
+    "type": "int"
+  },
+  {
+    "name": "CalendarFlags_9",
+    "type": "int"
+  },
+  {
+    "name": "CalendarFlags_10",
+    "type": "int"
+  },
+  {
+    "name": "HolidayNameID",
+    "type": "int"
+  },
+  {
+    "name": "HolidayDescriptionID",
+    "type": "int"
+  },
+  {
+    "name": "TextureFilename",
+    "type": "string"
+  },
+  {
+    "name": "Priority",
+    "type": "int"
+  },
+  {
+    "name": "CalendarFilterType",
+    "type": "int"
+  },
+  {
+    "name": "Flags",
+    "type": "int"
+  }
+]

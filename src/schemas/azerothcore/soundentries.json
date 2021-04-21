@@ -1,0 +1,122 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "SoundType",
+    "type": "int"
+  },
+  {
+    "name": "Name",
+    "type": "string"
+  },
+  {
+    "name": "File_1",
+    "type": "string"
+  },
+  {
+    "name": "File_2",
+    "type": "string"
+  },
+  {
+    "name": "File_3",
+    "type": "string"
+  },
+  {
+    "name": "File_4",
+    "type": "string"
+  },
+  {
+    "name": "File_5",
+    "type": "string"
+  },
+  {
+    "name": "File_6",
+    "type": "string"
+  },
+  {
+    "name": "File_7",
+    "type": "string"
+  },
+  {
+    "name": "File_8",
+    "type": "string"
+  },
+  {
+    "name": "File_9",
+    "type": "string"
+  },
+  {
+    "name": "File_10",
+    "type": "string"
+  },
+  {
+    "name": "Freq_1",
+    "type": "int"
+  },
+  {
+    "name": "Freq_2",
+    "type": "int"
+  },
+  {
+    "name": "Freq_3",
+    "type": "int"
+  },
+  {
+    "name": "Freq_4",
+    "type": "int"
+  },
+  {
+    "name": "Freq_5",
+    "type": "int"
+  },
+  {
+    "name": "Freq_6",
+    "type": "int"
+  },
+  {
+    "name": "Freq_7",
+    "type": "int"
+  },
+  {
+    "name": "Freq_8",
+    "type": "int"
+  },
+  {
+    "name": "Freq_9",
+    "type": "int"
+  },
+  {
+    "name": "Freq_10",
+    "type": "int"
+  },
+  {
+    "name": "DirectoryBase",
+    "type": "string"
+  },
+  {
+    "name": "Volumefloat",
+    "type": "float"
+  },
+  {
+    "name": "Flags",
+    "type": "int"
+  },
+  {
+    "name": "MinDistance",
+    "type": "float"
+  },
+  {
+    "name": "DistanceCutoff",
+    "type": "float"
+  },
+  {
+    "name": "EAXDef",
+    "type": "int"
+  },
+  {
+    "name": "SoundEntriesAdvancedID",
+    "type": "int"
+  }
+]

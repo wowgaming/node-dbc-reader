@@ -1,0 +1,66 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "ModelID",
+    "type": "int"
+  },
+  {
+    "name": "SoundID",
+    "type": "int"
+  },
+  {
+    "name": "ExtendedDisplayInfoID",
+    "type": "int"
+  },
+  {
+    "name": "CreatureModelScale",
+    "type": "float"
+  },
+  {
+    "name": "CreatureModelAlpha",
+    "type": "int"
+  },
+  {
+    "name": "TextureVariation_1",
+    "type": "string"
+  },
+  {
+    "name": "TextureVariation_2",
+    "type": "string"
+  },
+  {
+    "name": "TextureVariation_3",
+    "type": "string"
+  },
+  {
+    "name": "PortraitTextureName",
+    "type": "string"
+  },
+  {
+    "name": "BloodLevel",
+    "type": "int"
+  },
+  {
+    "name": "BloodID",
+    "type": "int"
+  },
+  {
+    "name": "NPCSoundID",
+    "type": "int"
+  },
+  {
+    "name": "ParticleColorID",
+    "type": "int"
+  },
+  {
+    "name": "CreatureGeosetData",
+    "type": "int"
+  },
+  {
+    "name": "ObjectEffectPackageID",
+    "type": "int"
+  }
+]

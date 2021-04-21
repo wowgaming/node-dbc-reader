@@ -1,0 +1,30 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "EmoteSlashCommand",
+    "type": "string"
+  },
+  {
+    "name": "AnimID",
+    "type": "int"
+  },
+  {
+    "name": "EmoteFlags",
+    "type": "int"
+  },
+  {
+    "name": "EmoteSpecProc",
+    "type": "int"
+  },
+  {
+    "name": "EmoteSpecProcParam",
+    "type": "int"
+  },
+  {
+    "name": "EventSoundID",
+    "type": "int"
+  }
+]

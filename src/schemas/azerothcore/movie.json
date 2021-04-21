@@ -1,0 +1,14 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Filename",
+    "type": "string"
+  },
+  {
+    "name": "Volume",
+    "type": "int"
+  }
+]

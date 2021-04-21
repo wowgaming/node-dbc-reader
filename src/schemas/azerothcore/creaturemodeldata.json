@@ -1,0 +1,114 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Flags",
+    "type": "int"
+  },
+  {
+    "name": "ModelName",
+    "type": "string"
+  },
+  {
+    "name": "SizeClass",
+    "type": "int"
+  },
+  {
+    "name": "ModelScale",
+    "type": "float"
+  },
+  {
+    "name": "BloodID",
+    "type": "int"
+  },
+  {
+    "name": "FootprintTextureID",
+    "type": "int"
+  },
+  {
+    "name": "FootprintTextureLength",
+    "type": "float"
+  },
+  {
+    "name": "FootprintTextureWidth",
+    "type": "float"
+  },
+  {
+    "name": "FootprintParticleScale",
+    "type": "float"
+  },
+  {
+    "name": "FoleyMaterialID",
+    "type": "int"
+  },
+  {
+    "name": "FootstepShakeSize",
+    "type": "int"
+  },
+  {
+    "name": "DeathThudShakeSize",
+    "type": "int"
+  },
+  {
+    "name": "SoundID",
+    "type": "int"
+  },
+  {
+    "name": "CollisionWidth",
+    "type": "float"
+  },
+  {
+    "name": "CollisionHeight",
+    "type": "float"
+  },
+  {
+    "name": "MountHeight",
+    "type": "float"
+  },
+  {
+    "name": "GeoBoxMinX",
+    "type": "float"
+  },
+  {
+    "name": "GeoBoxMinY",
+    "type": "float"
+  },
+  {
+    "name": "GeoBoxMinZ",
+    "type": "float"
+  },
+  {
+    "name": "GeoBoxMaxX",
+    "type": "float"
+  },
+  {
+    "name": "GeoBoxMaxY",
+    "type": "float"
+  },
+  {
+    "name": "GeoBoxMaxZ",
+    "type": "float"
+  },
+  {
+    "name": "WorldEffectScale",
+    "type": "float"
+  },
+  {
+    "name": "AttachedEffectScale",
+    "type": "float"
+  },
+  {
+    "name": "MissileCollisionRadius",
+    "type": "float"
+  },
+  {
+    "name": "MissileCollisionPush",
+    "type": "float"
+  },
+  {
+    "name": "MissileCollisionRaise",
+    "type": "float"
+  }
+]

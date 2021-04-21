@@ -1,0 +1,154 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Charges",
+    "type": "int"
+  },
+  {
+    "name": "Effect_1",
+    "type": "int"
+  },
+  {
+    "name": "Effect_2",
+    "type": "int"
+  },
+  {
+    "name": "Effect_3",
+    "type": "int"
+  },
+  {
+    "name": "EffectPointsMin_1",
+    "type": "int"
+  },
+  {
+    "name": "EffectPointsMin_2",
+    "type": "int"
+  },
+  {
+    "name": "EffectPointsMin_3",
+    "type": "int"
+  },
+  {
+    "name": "EffectPointsMax_1",
+    "type": "int"
+  },
+  {
+    "name": "EffectPointsMax_2",
+    "type": "int"
+  },
+  {
+    "name": "EffectPointsMax_3",
+    "type": "int"
+  },
+  {
+    "name": "EffectArg_1",
+    "type": "int"
+  },
+  {
+    "name": "EffectArg_2",
+    "type": "int"
+  },
+  {
+    "name": "EffectArg_3",
+    "type": "int"
+  },
+  {
+    "name": "Name_Lang_enUS",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_enGB",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_koKR",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_frFR",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_deDE",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_enCN",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_zhCN",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_enTW",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_zhTW",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_esES",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_esMX",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_ruRU",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_ptPT",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_ptBR",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_itIT",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_Unk",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_Mask",
+    "type": "uint"
+  },
+  {
+    "name": "ItemVisual",
+    "type": "int"
+  },
+  {
+    "name": "Flags",
+    "type": "int"
+  },
+  {
+    "name": "Src_ItemID",
+    "type": "int"
+  },
+  {
+    "name": "Condition_Id",
+    "type": "int"
+  },
+  {
+    "name": "RequiredSkillID",
+    "type": "int"
+  },
+  {
+    "name": "RequiredSkillRank",
+    "type": "int"
+  },
+  {
+    "name": "MinLevel",
+    "type": "int"
+  }
+]

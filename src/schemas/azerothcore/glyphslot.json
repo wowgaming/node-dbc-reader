@@ -1,0 +1,14 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Type",
+    "type": "int"
+  },
+  {
+    "name": "Tooltip",
+    "type": "int"
+  }
+]

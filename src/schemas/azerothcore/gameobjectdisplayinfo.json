@@ -1,0 +1,78 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "ModelName",
+    "type": "string"
+  },
+  {
+    "name": "Sound_1",
+    "type": "int"
+  },
+  {
+    "name": "Sound_2",
+    "type": "int"
+  },
+  {
+    "name": "Sound_3",
+    "type": "int"
+  },
+  {
+    "name": "Sound_4",
+    "type": "int"
+  },
+  {
+    "name": "Sound_5",
+    "type": "int"
+  },
+  {
+    "name": "Sound_6",
+    "type": "int"
+  },
+  {
+    "name": "Sound_7",
+    "type": "int"
+  },
+  {
+    "name": "Sound_8",
+    "type": "int"
+  },
+  {
+    "name": "Sound_9",
+    "type": "int"
+  },
+  {
+    "name": "Sound_10",
+    "type": "int"
+  },
+  {
+    "name": "GeoBoxMinX",
+    "type": "float"
+  },
+  {
+    "name": "GeoBoxMinY",
+    "type": "float"
+  },
+  {
+    "name": "GeoBoxMinZ",
+    "type": "float"
+  },
+  {
+    "name": "GeoBoxMaxX",
+    "type": "float"
+  },
+  {
+    "name": "GeoBoxMaxY",
+    "type": "float"
+  },
+  {
+    "name": "GeoBoxMaxZ",
+    "type": "float"
+  },
+  {
+    "name": "ObjectEffectPackageID",
+    "type": "int"
+  }
+]

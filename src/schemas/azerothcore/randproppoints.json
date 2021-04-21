@@ -1,0 +1,66 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Epic_1",
+    "type": "int"
+  },
+  {
+    "name": "Epic_2",
+    "type": "int"
+  },
+  {
+    "name": "Epic_3",
+    "type": "int"
+  },
+  {
+    "name": "Epic_4",
+    "type": "int"
+  },
+  {
+    "name": "Epic_5",
+    "type": "int"
+  },
+  {
+    "name": "Superior_1",
+    "type": "int"
+  },
+  {
+    "name": "Superior_2",
+    "type": "int"
+  },
+  {
+    "name": "Superior_3",
+    "type": "int"
+  },
+  {
+    "name": "Superior_4",
+    "type": "int"
+  },
+  {
+    "name": "Superior_5",
+    "type": "int"
+  },
+  {
+    "name": "Good_1",
+    "type": "int"
+  },
+  {
+    "name": "Good_2",
+    "type": "int"
+  },
+  {
+    "name": "Good_3",
+    "type": "int"
+  },
+  {
+    "name": "Good_4",
+    "type": "int"
+  },
+  {
+    "name": "Good_5",
+    "type": "int"
+  }
+]

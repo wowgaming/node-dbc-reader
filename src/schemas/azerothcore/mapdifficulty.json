@@ -1,0 +1,94 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "MapID",
+    "type": "int"
+  },
+  {
+    "name": "Difficulty",
+    "type": "int"
+  },
+  {
+    "name": "Message_Lang_enUS",
+    "type": "string"
+  },
+  {
+    "name": "Message_Lang_enGB",
+    "type": "string"
+  },
+  {
+    "name": "Message_Lang_koKR",
+    "type": "string"
+  },
+  {
+    "name": "Message_Lang_frFR",
+    "type": "string"
+  },
+  {
+    "name": "Message_Lang_deDE",
+    "type": "string"
+  },
+  {
+    "name": "Message_Lang_enCN",
+    "type": "string"
+  },
+  {
+    "name": "Message_Lang_zhCN",
+    "type": "string"
+  },
+  {
+    "name": "Message_Lang_enTW",
+    "type": "string"
+  },
+  {
+    "name": "Message_Lang_zhTW",
+    "type": "string"
+  },
+  {
+    "name": "Message_Lang_esES",
+    "type": "string"
+  },
+  {
+    "name": "Message_Lang_esMX",
+    "type": "string"
+  },
+  {
+    "name": "Message_Lang_ruRU",
+    "type": "string"
+  },
+  {
+    "name": "Message_Lang_ptPT",
+    "type": "string"
+  },
+  {
+    "name": "Message_Lang_ptBR",
+    "type": "string"
+  },
+  {
+    "name": "Message_Lang_itIT",
+    "type": "string"
+  },
+  {
+    "name": "Message_Lang_Unk",
+    "type": "string"
+  },
+  {
+    "name": "Message_Lang_Mask",
+    "type": "uint"
+  },
+  {
+    "name": "RaidDuration",
+    "type": "int"
+  },
+  {
+    "name": "MaxPlayers",
+    "type": "int"
+  },
+  {
+    "name": "Difficultystring",
+    "type": "string"
+  }
+]

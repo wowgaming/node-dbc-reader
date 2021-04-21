@@ -1,0 +1,310 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "RaceID",
+    "type": "uint"
+  },
+  {
+    "name": "ClassID",
+    "type": "uint"
+  },
+  {
+    "name": "SexID",
+    "type": "uint"
+  },
+  {
+    "name": "OutfitID",
+    "type": "uint"
+  },
+  {
+    "name": "ItemID_1",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_2",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_3",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_4",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_5",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_6",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_7",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_8",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_9",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_10",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_11",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_12",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_13",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_14",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_15",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_16",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_17",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_18",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_19",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_20",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_21",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_22",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_23",
+    "type": "int"
+  },
+  {
+    "name": "ItemID_24",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_1",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_2",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_3",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_4",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_5",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_6",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_7",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_8",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_9",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_10",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_11",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_12",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_13",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_14",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_15",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_16",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_17",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_18",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_19",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_20",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_21",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_22",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_23",
+    "type": "int"
+  },
+  {
+    "name": "DisplayItemID_24",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_1",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_2",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_3",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_4",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_5",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_6",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_7",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_8",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_9",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_10",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_11",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_12",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_13",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_14",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_15",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_16",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_17",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_18",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_19",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_20",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_21",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_22",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_23",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType_24",
+    "type": "int"
+  }
+]

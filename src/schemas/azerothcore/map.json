@@ -1,0 +1,266 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Directory",
+    "type": "string"
+  },
+  {
+    "name": "InstanceType",
+    "type": "int"
+  },
+  {
+    "name": "Flags",
+    "type": "int"
+  },
+  {
+    "name": "PVP",
+    "type": "int"
+  },
+  {
+    "name": "MapName_Lang_enUS",
+    "type": "string"
+  },
+  {
+    "name": "MapName_Lang_enGB",
+    "type": "string"
+  },
+  {
+    "name": "MapName_Lang_koKR",
+    "type": "string"
+  },
+  {
+    "name": "MapName_Lang_frFR",
+    "type": "string"
+  },
+  {
+    "name": "MapName_Lang_deDE",
+    "type": "string"
+  },
+  {
+    "name": "MapName_Lang_enCN",
+    "type": "string"
+  },
+  {
+    "name": "MapName_Lang_zhCN",
+    "type": "string"
+  },
+  {
+    "name": "MapName_Lang_enTW",
+    "type": "string"
+  },
+  {
+    "name": "MapName_Lang_zhTW",
+    "type": "string"
+  },
+  {
+    "name": "MapName_Lang_esES",
+    "type": "string"
+  },
+  {
+    "name": "MapName_Lang_esMX",
+    "type": "string"
+  },
+  {
+    "name": "MapName_Lang_ruRU",
+    "type": "string"
+  },
+  {
+    "name": "MapName_Lang_ptPT",
+    "type": "string"
+  },
+  {
+    "name": "MapName_Lang_ptBR",
+    "type": "string"
+  },
+  {
+    "name": "MapName_Lang_itIT",
+    "type": "string"
+  },
+  {
+    "name": "MapName_Lang_Unk",
+    "type": "string"
+  },
+  {
+    "name": "MapName_Lang_Mask",
+    "type": "uint"
+  },
+  {
+    "name": "AreaTableID",
+    "type": "int"
+  },
+  {
+    "name": "MapDescription0_Lang_enUS",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription0_Lang_enGB",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription0_Lang_koKR",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription0_Lang_frFR",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription0_Lang_deDE",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription0_Lang_enCN",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription0_Lang_zhCN",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription0_Lang_enTW",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription0_Lang_zhTW",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription0_Lang_esES",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription0_Lang_esMX",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription0_Lang_ruRU",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription0_Lang_ptPT",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription0_Lang_ptBR",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription0_Lang_itIT",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription0_Lang_Unk",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription0_Lang_Mask",
+    "type": "uint"
+  },
+  {
+    "name": "MapDescription1_Lang_enUS",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription1_Lang_enGB",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription1_Lang_koKR",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription1_Lang_frFR",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription1_Lang_deDE",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription1_Lang_enCN",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription1_Lang_zhCN",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription1_Lang_enTW",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription1_Lang_zhTW",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription1_Lang_esES",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription1_Lang_esMX",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription1_Lang_ruRU",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription1_Lang_ptPT",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription1_Lang_ptBR",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription1_Lang_itIT",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription1_Lang_Unk",
+    "type": "string"
+  },
+  {
+    "name": "MapDescription1_Lang_Mask",
+    "type": "uint"
+  },
+  {
+    "name": "LoadingScreenID",
+    "type": "int"
+  },
+  {
+    "name": "MinimapIconScale",
+    "type": "float"
+  },
+  {
+    "name": "CorpseMapID",
+    "type": "int"
+  },
+  {
+    "name": "CorpseX",
+    "type": "float"
+  },
+  {
+    "name": "CorpseY",
+    "type": "float"
+  },
+  {
+    "name": "TimeOfDayOverride",
+    "type": "int"
+  },
+  {
+    "name": "ExpansionID",
+    "type": "int"
+  },
+  {
+    "name": "RaidOffset",
+    "type": "int"
+  },
+  {
+    "name": "MaxPlayers",
+    "type": "int"
+  }
+]

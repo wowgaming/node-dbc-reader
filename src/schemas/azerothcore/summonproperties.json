@@ -1,0 +1,26 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Control",
+    "type": "int"
+  },
+  {
+    "name": "Faction",
+    "type": "int"
+  },
+  {
+    "name": "Title",
+    "type": "int"
+  },
+  {
+    "name": "Slot",
+    "type": "int"
+  },
+  {
+    "name": "Flags",
+    "type": "int"
+  }
+]

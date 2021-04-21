@@ -34,20 +34,20 @@ function searchInRow(row, search, fields, isAdvanced = false) {
   }
 
   for (const prop of Object.values(_row)) {
-      if (isAdvanced) {
-        let replacement = typeof prop === "string" ?  `"${JSON.stringify(prop).slice(1, -1)}"` : prop;
-        let advancedSearch = search.split(SUBST_PATTERN).join(replacement);
-        try {
-          if (eval(advancedSearch))
-            return row;
-        } catch(e) {
-          console.error(advancedSearch);
-          throw e;
-        }
-      } else {
-        if (`${prop}`.search(search)>=0)
+    if (isAdvanced) {
+      let replacement = typeof prop === "string" ? `"${JSON.stringify(prop).slice(1, -1)}"` : prop;
+      let advancedSearch = search.split(SUBST_PATTERN).join(replacement);
+      try {
+        if (eval(advancedSearch))
           return row;
+      } catch (e) {
+        console.error(advancedSearch);
+        throw e;
       }
+    } else {
+      if (`${prop}`.search(search) >= 0)
+        return row;
+    }
   }
 
   return null;
@@ -55,12 +55,12 @@ function searchInRow(row, search, fields, isAdvanced = false) {
 
 function toSql(fileName, row) {
   let tableName = `${fileName}_dbc`;
-  let values = Object.values(row).map(v=>typeof v === "string" ? `"${v}"` : v);
-  let keys = Object.keys(row).map(v=>"`"+v+"`");
+  let values = Object.values(row).map(v => typeof v === "string" ? `"${v}"` : v);
+  let keys = Object.keys(row).map(v => "`" + v + "`");
   return `INSERT IGNORE INTO ${tableName} (${keys})\n VALUES (${values});`;
 }
 
-function extractDBC(dbcName, { search, columns, outType, file, condition }) {
+function extractDBC(dbcName, { search, schema, columns, outType, file, condition }) {
   console.log(`Reading ${dbcName}.dbc file`)
 
   const filePath = `${__dirname}/../data/dbc/${dbcName}.dbc`;
@@ -69,7 +69,7 @@ function extractDBC(dbcName, { search, columns, outType, file, condition }) {
     throw new Error(`${dbcName}.dbc doesn't exist`)
   }
 
-  var dbc = new DBC(filePath, dbcName);
+  var dbc = new DBC(filePath, `${schema}/${dbcName.toLowerCase()}`);
 
   return dbc.toJSON().then(function (dbcTable) {
     const foundList = [];
@@ -82,22 +82,22 @@ function extractDBC(dbcName, { search, columns, outType, file, condition }) {
         foundList.push(found)
     }
 
-    let result=[];
-    switch(outType) {
+    let result = [];
+    switch (outType) {
       case 'sql':
         for (const row of foundList) {
-          result.push(toSql(dbcName,row));
+          result.push(toSql(dbcName, row));
         }
         result = result.join('\n');
-      break;
+        break;
       default:
-        result=JSON.stringify(foundList, null, 2);
-      break;
+        result = JSON.stringify(foundList, null, 2);
+        break;
     }
 
     if (file) {
-      fs.writeFileSync(file,result);
-      console.log("Output file created: "+file);
+      fs.writeFileSync(file, result);
+      console.log("Output file created: " + file);
       return;
     }
 
@@ -111,12 +111,12 @@ function extractDBC(dbcName, { search, columns, outType, file, condition }) {
  * @param {object} options 
  * @param {string} command 
  */
-const actionCommand = async (dbcNames, { search, columns, outType, file }, command) => {
+const actionCommand = async (dbcNames, { search, schema, columns, outType, file }, command) => {
   if (!dbcNames.length)
     dbcNames = dbcList;
 
   for (const dbc of dbcNames) {
-    await extractDBC(dbc, { search, columns, outType, file });
+    await extractDBC(dbc, { search, schema, columns, outType, file });
   }
 }
 
@@ -124,8 +124,9 @@ command.name("node-dbc-reader")
   .arguments('<dbcname...>')
   .option('-s,--search <text>', 'Search text, it supports regex and advanced patterns. Check the README for further information')
   .option('-c,--columns <columns...>', 'Comma separated list of DBC columns to use for the search, if not specified the search will run on all columns')
-  .option('-t,--out-type [type]',"Output types: sql, json", "json")
+  .option('-t,--out-type [type]', "Output types: sql, json", "json")
   .option('-f,--file <filename>', 'Whether to save in a file or not')
+  .option('-s,--schema <schema_folder>', 'Select the schema folder', 'azerothcore')
   .action(actionCommand);
 
 

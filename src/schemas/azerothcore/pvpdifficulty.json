@@ -1,0 +1,26 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "MapID",
+    "type": "int"
+  },
+  {
+    "name": "RangeIndex",
+    "type": "int"
+  },
+  {
+    "name": "MinLevel",
+    "type": "int"
+  },
+  {
+    "name": "MaxLevel",
+    "type": "int"
+  },
+  {
+    "name": "Difficulty",
+    "type": "int"
+  }
+]

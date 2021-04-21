@@ -1,0 +1,182 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Name",
+    "type": "string"
+  },
+  {
+    "name": "Flags",
+    "type": "int"
+  },
+  {
+    "name": "Type",
+    "type": "int"
+  },
+  {
+    "name": "SoundID",
+    "type": "int"
+  },
+  {
+    "name": "SpellID",
+    "type": "int"
+  },
+  {
+    "name": "MaxDarkenDepth",
+    "type": "float"
+  },
+  {
+    "name": "FogDarkenintensity",
+    "type": "float"
+  },
+  {
+    "name": "AmbDarkenintensity",
+    "type": "float"
+  },
+  {
+    "name": "DirDarkenintensity",
+    "type": "float"
+  },
+  {
+    "name": "LightID",
+    "type": "int"
+  },
+  {
+    "name": "ParticleScale",
+    "type": "float"
+  },
+  {
+    "name": "ParticleMovement",
+    "type": "int"
+  },
+  {
+    "name": "ParticleTexSlots",
+    "type": "int"
+  },
+  {
+    "name": "MaterialID",
+    "type": "int"
+  },
+  {
+    "name": "Texture_1",
+    "type": "string"
+  },
+  {
+    "name": "Texture_2",
+    "type": "string"
+  },
+  {
+    "name": "Texture_3",
+    "type": "string"
+  },
+  {
+    "name": "Texture_4",
+    "type": "string"
+  },
+  {
+    "name": "Texture_5",
+    "type": "string"
+  },
+  {
+    "name": "Texture_6",
+    "type": "string"
+  },
+  {
+    "name": "Color_1",
+    "type": "int"
+  },
+  {
+    "name": "Color_2",
+    "type": "int"
+  },
+  {
+    "name": "Float_1",
+    "type": "float"
+  },
+  {
+    "name": "Float_2",
+    "type": "float"
+  },
+  {
+    "name": "Float_3",
+    "type": "float"
+  },
+  {
+    "name": "Float_4",
+    "type": "float"
+  },
+  {
+    "name": "Float_5",
+    "type": "float"
+  },
+  {
+    "name": "Float_6",
+    "type": "float"
+  },
+  {
+    "name": "Float_7",
+    "type": "float"
+  },
+  {
+    "name": "Float_8",
+    "type": "float"
+  },
+  {
+    "name": "Float_9",
+    "type": "float"
+  },
+  {
+    "name": "Float_10",
+    "type": "float"
+  },
+  {
+    "name": "Float_11",
+    "type": "float"
+  },
+  {
+    "name": "Float_12",
+    "type": "float"
+  },
+  {
+    "name": "Float_13",
+    "type": "float"
+  },
+  {
+    "name": "Float_14",
+    "type": "float"
+  },
+  {
+    "name": "Float_15",
+    "type": "float"
+  },
+  {
+    "name": "Float_16",
+    "type": "float"
+  },
+  {
+    "name": "Float_17",
+    "type": "float"
+  },
+  {
+    "name": "Float_18",
+    "type": "float"
+  },
+  {
+    "name": "Int_1",
+    "type": "int"
+  },
+  {
+    "name": "Int_2",
+    "type": "int"
+  },
+  {
+    "name": "Int_3",
+    "type": "int"
+  },
+  {
+    "name": "Int_4",
+    "type": "int"
+  }
+]

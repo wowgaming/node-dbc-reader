@@ -1,0 +1,90 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "StatID_1",
+    "type": "int"
+  },
+  {
+    "name": "StatID_2",
+    "type": "int"
+  },
+  {
+    "name": "StatID_3",
+    "type": "int"
+  },
+  {
+    "name": "StatID_4",
+    "type": "int"
+  },
+  {
+    "name": "StatID_5",
+    "type": "int"
+  },
+  {
+    "name": "StatID_6",
+    "type": "int"
+  },
+  {
+    "name": "StatID_7",
+    "type": "int"
+  },
+  {
+    "name": "StatID_8",
+    "type": "int"
+  },
+  {
+    "name": "StatID_9",
+    "type": "int"
+  },
+  {
+    "name": "StatID_10",
+    "type": "int"
+  },
+  {
+    "name": "Bonus_1",
+    "type": "int"
+  },
+  {
+    "name": "Bonus_2",
+    "type": "int"
+  },
+  {
+    "name": "Bonus_3",
+    "type": "int"
+  },
+  {
+    "name": "Bonus_4",
+    "type": "int"
+  },
+  {
+    "name": "Bonus_5",
+    "type": "int"
+  },
+  {
+    "name": "Bonus_6",
+    "type": "int"
+  },
+  {
+    "name": "Bonus_7",
+    "type": "int"
+  },
+  {
+    "name": "Bonus_8",
+    "type": "int"
+  },
+  {
+    "name": "Bonus_9",
+    "type": "int"
+  },
+  {
+    "name": "Bonus_10",
+    "type": "int"
+  },
+  {
+    "name": "Maxlevel",
+    "type": "int"
+  }
+]

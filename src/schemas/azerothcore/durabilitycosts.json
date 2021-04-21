@@ -1,0 +1,122 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "WeaponSubClassCost_1",
+    "type": "int"
+  },
+  {
+    "name": "WeaponSubClassCost_2",
+    "type": "int"
+  },
+  {
+    "name": "WeaponSubClassCost_3",
+    "type": "int"
+  },
+  {
+    "name": "WeaponSubClassCost_4",
+    "type": "int"
+  },
+  {
+    "name": "WeaponSubClassCost_5",
+    "type": "int"
+  },
+  {
+    "name": "WeaponSubClassCost_6",
+    "type": "int"
+  },
+  {
+    "name": "WeaponSubClassCost_7",
+    "type": "int"
+  },
+  {
+    "name": "WeaponSubClassCost_8",
+    "type": "int"
+  },
+  {
+    "name": "WeaponSubClassCost_9",
+    "type": "int"
+  },
+  {
+    "name": "WeaponSubClassCost_10",
+    "type": "int"
+  },
+  {
+    "name": "WeaponSubClassCost_11",
+    "type": "int"
+  },
+  {
+    "name": "WeaponSubClassCost_12",
+    "type": "int"
+  },
+  {
+    "name": "WeaponSubClassCost_13",
+    "type": "int"
+  },
+  {
+    "name": "WeaponSubClassCost_14",
+    "type": "int"
+  },
+  {
+    "name": "WeaponSubClassCost_15",
+    "type": "int"
+  },
+  {
+    "name": "WeaponSubClassCost_16",
+    "type": "int"
+  },
+  {
+    "name": "WeaponSubClassCost_17",
+    "type": "int"
+  },
+  {
+    "name": "WeaponSubClassCost_18",
+    "type": "int"
+  },
+  {
+    "name": "WeaponSubClassCost_19",
+    "type": "int"
+  },
+  {
+    "name": "WeaponSubClassCost_20",
+    "type": "int"
+  },
+  {
+    "name": "WeaponSubClassCost_21",
+    "type": "int"
+  },
+  {
+    "name": "ArmorSubClassCost_1",
+    "type": "int"
+  },
+  {
+    "name": "ArmorSubClassCost_2",
+    "type": "int"
+  },
+  {
+    "name": "ArmorSubClassCost_3",
+    "type": "int"
+  },
+  {
+    "name": "ArmorSubClassCost_4",
+    "type": "int"
+  },
+  {
+    "name": "ArmorSubClassCost_5",
+    "type": "int"
+  },
+  {
+    "name": "ArmorSubClassCost_6",
+    "type": "int"
+  },
+  {
+    "name": "ArmorSubClassCost_7",
+    "type": "int"
+  },
+  {
+    "name": "ArmorSubClassCost_8",
+    "type": "int"
+  }
+]

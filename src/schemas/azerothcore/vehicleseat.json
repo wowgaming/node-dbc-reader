@@ -1,0 +1,234 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Flags",
+    "type": "int"
+  },
+  {
+    "name": "AttachmentID",
+    "type": "int"
+  },
+  {
+    "name": "AttachmentOffsetX",
+    "type": "float"
+  },
+  {
+    "name": "AttachmentOffsetY",
+    "type": "float"
+  },
+  {
+    "name": "AttachmentOffsetZ",
+    "type": "float"
+  },
+  {
+    "name": "EnterPreDelay",
+    "type": "float"
+  },
+  {
+    "name": "EnterSpeed",
+    "type": "float"
+  },
+  {
+    "name": "EnterGravity",
+    "type": "float"
+  },
+  {
+    "name": "EnterMinDuration",
+    "type": "float"
+  },
+  {
+    "name": "EnterMaxDuration",
+    "type": "float"
+  },
+  {
+    "name": "EnterMinArcHeight",
+    "type": "float"
+  },
+  {
+    "name": "EnterMaxArcHeight",
+    "type": "float"
+  },
+  {
+    "name": "EnterAnimStart",
+    "type": "int"
+  },
+  {
+    "name": "EnterAnimLoop",
+    "type": "int"
+  },
+  {
+    "name": "RideAnimStart",
+    "type": "int"
+  },
+  {
+    "name": "RideAnimLoop",
+    "type": "int"
+  },
+  {
+    "name": "RideUpperAnimStart",
+    "type": "int"
+  },
+  {
+    "name": "RideUpperAnimLoop",
+    "type": "int"
+  },
+  {
+    "name": "ExitPreDelay",
+    "type": "float"
+  },
+  {
+    "name": "ExitSpeed",
+    "type": "float"
+  },
+  {
+    "name": "ExitGravity",
+    "type": "float"
+  },
+  {
+    "name": "ExitMinDuration",
+    "type": "float"
+  },
+  {
+    "name": "ExitMaxDuration",
+    "type": "float"
+  },
+  {
+    "name": "ExitMinArcHeight",
+    "type": "float"
+  },
+  {
+    "name": "ExitMaxArcHeight",
+    "type": "float"
+  },
+  {
+    "name": "ExitAnimStart",
+    "type": "int"
+  },
+  {
+    "name": "ExitAnimLoop",
+    "type": "int"
+  },
+  {
+    "name": "ExitAnimEnd",
+    "type": "int"
+  },
+  {
+    "name": "PassengerYaw",
+    "type": "float"
+  },
+  {
+    "name": "PassengerPitch",
+    "type": "float"
+  },
+  {
+    "name": "PassengerRoll",
+    "type": "float"
+  },
+  {
+    "name": "PassengerAttachmentID",
+    "type": "int"
+  },
+  {
+    "name": "VehicleEnterAnim",
+    "type": "int"
+  },
+  {
+    "name": "VehicleExitAnim",
+    "type": "int"
+  },
+  {
+    "name": "VehicleRideAnimLoop",
+    "type": "int"
+  },
+  {
+    "name": "VehicleEnterAnimBone",
+    "type": "int"
+  },
+  {
+    "name": "VehicleExitAnimBone",
+    "type": "int"
+  },
+  {
+    "name": "VehicleRideAnimLoopBone",
+    "type": "int"
+  },
+  {
+    "name": "VehicleEnterAnimDelay",
+    "type": "float"
+  },
+  {
+    "name": "VehicleExitAnimDelay",
+    "type": "float"
+  },
+  {
+    "name": "VehicleAbilityDisplay",
+    "type": "int"
+  },
+  {
+    "name": "EnterUISoundID",
+    "type": "int"
+  },
+  {
+    "name": "ExitUISoundID",
+    "type": "int"
+  },
+  {
+    "name": "UiSkin",
+    "type": "int"
+  },
+  {
+    "name": "FlagsB",
+    "type": "int"
+  },
+  {
+    "name": "CameraEnteringDelay",
+    "type": "float"
+  },
+  {
+    "name": "CameraEnteringDuration",
+    "type": "float"
+  },
+  {
+    "name": "CameraExitingDelay",
+    "type": "float"
+  },
+  {
+    "name": "CameraExitingDuration",
+    "type": "float"
+  },
+  {
+    "name": "CameraOffsetX",
+    "type": "float"
+  },
+  {
+    "name": "CameraOffsetY",
+    "type": "float"
+  },
+  {
+    "name": "CameraOffsetZ",
+    "type": "float"
+  },
+  {
+    "name": "CameraPosChaseRate",
+    "type": "float"
+  },
+  {
+    "name": "CameraFacingChaseRate",
+    "type": "float"
+  },
+  {
+    "name": "CameraEnteringZoom",
+    "type": "float"
+  },
+  {
+    "name": "CameraSeatZoomMin",
+    "type": "float"
+  },
+  {
+    "name": "CameraSeatZoomMax",
+    "type": "float"
+  }
+]

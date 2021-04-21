@@ -1,0 +1,230 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "ReputationIndex",
+    "type": "int"
+  },
+  {
+    "name": "ReputationRaceMask_1",
+    "type": "int"
+  },
+  {
+    "name": "ReputationRaceMask_2",
+    "type": "int"
+  },
+  {
+    "name": "ReputationRaceMask_3",
+    "type": "int"
+  },
+  {
+    "name": "ReputationRaceMask_4",
+    "type": "int"
+  },
+  {
+    "name": "ReputationClassMask_1",
+    "type": "int"
+  },
+  {
+    "name": "ReputationClassMask_2",
+    "type": "int"
+  },
+  {
+    "name": "ReputationClassMask_3",
+    "type": "int"
+  },
+  {
+    "name": "ReputationClassMask_4",
+    "type": "int"
+  },
+  {
+    "name": "ReputationBase_1",
+    "type": "int"
+  },
+  {
+    "name": "ReputationBase_2",
+    "type": "int"
+  },
+  {
+    "name": "ReputationBase_3",
+    "type": "int"
+  },
+  {
+    "name": "ReputationBase_4",
+    "type": "int"
+  },
+  {
+    "name": "ReputationFlags_1",
+    "type": "int"
+  },
+  {
+    "name": "ReputationFlags_2",
+    "type": "int"
+  },
+  {
+    "name": "ReputationFlags_3",
+    "type": "int"
+  },
+  {
+    "name": "ReputationFlags_4",
+    "type": "int"
+  },
+  {
+    "name": "ParentFactionID",
+    "type": "int"
+  },
+  {
+    "name": "ParentFactionMod_1",
+    "type": "float"
+  },
+  {
+    "name": "ParentFactionMod_2",
+    "type": "float"
+  },
+  {
+    "name": "ParentFactionCap_1",
+    "type": "int"
+  },
+  {
+    "name": "ParentFactionCap_2",
+    "type": "int"
+  },
+  {
+    "name": "Name_Lang_enUS",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_enGB",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_koKR",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_frFR",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_deDE",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_enCN",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_zhCN",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_enTW",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_zhTW",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_esES",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_esMX",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_ruRU",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_ptPT",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_ptBR",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_itIT",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_Unk",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_Mask",
+    "type": "uint"
+  },
+  {
+    "name": "Description_Lang_enUS",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_enGB",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_koKR",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_frFR",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_deDE",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_enCN",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_zhCN",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_enTW",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_zhTW",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_esES",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_esMX",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_ruRU",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_ptPT",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_ptBR",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_itIT",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_Unk",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_Mask",
+    "type": "uint"
+  }
+]

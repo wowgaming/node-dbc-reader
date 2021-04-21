@@ -1,0 +1,18 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Base",
+    "type": "int"
+  },
+  {
+    "name": "PerLevel",
+    "type": "int"
+  },
+  {
+    "name": "Minimum",
+    "type": "int"
+  }
+]

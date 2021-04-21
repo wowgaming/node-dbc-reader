@@ -1,0 +1,34 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "AreaID_1",
+    "type": "int"
+  },
+  {
+    "name": "AreaID_2",
+    "type": "int"
+  },
+  {
+    "name": "AreaID_3",
+    "type": "int"
+  },
+  {
+    "name": "AreaID_4",
+    "type": "int"
+  },
+  {
+    "name": "AreaID_5",
+    "type": "int"
+  },
+  {
+    "name": "AreaID_6",
+    "type": "int"
+  },
+  {
+    "name": "NextAreaID",
+    "type": "int"
+  }
+]

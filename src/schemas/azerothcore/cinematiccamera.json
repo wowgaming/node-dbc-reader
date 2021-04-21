@@ -1,0 +1,30 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "model",
+    "type": "string"
+  },
+  {
+    "name": "soundEntry",
+    "type": "int"
+  },
+  {
+    "name": "locationX",
+    "type": "float"
+  },
+  {
+    "name": "locationY",
+    "type": "float"
+  },
+  {
+    "name": "locationZ",
+    "type": "float"
+  },
+  {
+    "name": "rotation",
+    "type": "float"
+  }
+]

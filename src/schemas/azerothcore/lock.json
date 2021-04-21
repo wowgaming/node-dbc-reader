@@ -1,0 +1,134 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Type_1",
+    "type": "int"
+  },
+  {
+    "name": "Type_2",
+    "type": "int"
+  },
+  {
+    "name": "Type_3",
+    "type": "int"
+  },
+  {
+    "name": "Type_4",
+    "type": "int"
+  },
+  {
+    "name": "Type_5",
+    "type": "int"
+  },
+  {
+    "name": "Type_6",
+    "type": "int"
+  },
+  {
+    "name": "Type_7",
+    "type": "int"
+  },
+  {
+    "name": "Type_8",
+    "type": "int"
+  },
+  {
+    "name": "Index_1",
+    "type": "int"
+  },
+  {
+    "name": "Index_2",
+    "type": "int"
+  },
+  {
+    "name": "Index_3",
+    "type": "int"
+  },
+  {
+    "name": "Index_4",
+    "type": "int"
+  },
+  {
+    "name": "Index_5",
+    "type": "int"
+  },
+  {
+    "name": "Index_6",
+    "type": "int"
+  },
+  {
+    "name": "Index_7",
+    "type": "int"
+  },
+  {
+    "name": "Index_8",
+    "type": "int"
+  },
+  {
+    "name": "Skill_1",
+    "type": "int"
+  },
+  {
+    "name": "Skill_2",
+    "type": "int"
+  },
+  {
+    "name": "Skill_3",
+    "type": "int"
+  },
+  {
+    "name": "Skill_4",
+    "type": "int"
+  },
+  {
+    "name": "Skill_5",
+    "type": "int"
+  },
+  {
+    "name": "Skill_6",
+    "type": "int"
+  },
+  {
+    "name": "Skill_7",
+    "type": "int"
+  },
+  {
+    "name": "Skill_8",
+    "type": "int"
+  },
+  {
+    "name": "Action_1",
+    "type": "int"
+  },
+  {
+    "name": "Action_2",
+    "type": "int"
+  },
+  {
+    "name": "Action_3",
+    "type": "int"
+  },
+  {
+    "name": "Action_4",
+    "type": "int"
+  },
+  {
+    "name": "Action_5",
+    "type": "int"
+  },
+  {
+    "name": "Action_6",
+    "type": "int"
+  },
+  {
+    "name": "Action_7",
+    "type": "int"
+  },
+  {
+    "name": "Action_8",
+    "type": "int"
+  }
+]

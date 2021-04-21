@@ -1,0 +1,54 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "SkillLine",
+    "type": "int"
+  },
+  {
+    "name": "Spell",
+    "type": "int"
+  },
+  {
+    "name": "RaceMask",
+    "type": "int"
+  },
+  {
+    "name": "ClassMask",
+    "type": "int"
+  },
+  {
+    "name": "MinSkillLineRank",
+    "type": "int"
+  },
+  {
+    "name": "SupercededBySpell",
+    "type": "int"
+  },
+  {
+    "name": "AcquireMethod",
+    "type": "int"
+  },
+  {
+    "name": "TrivialSkillLineRankHigh",
+    "type": "int"
+  },
+  {
+    "name": "TrivialSkillLineRankLow",
+    "type": "int"
+  },
+  {
+    "name": "CharacterPoints_1",
+    "type": "int"
+  },
+  {
+    "name": "CharacterPoints_2",
+    "type": "int"
+  },
+  {
+    "name": "TradeSkillCategoryID",
+    "type": "int"
+  }
+]

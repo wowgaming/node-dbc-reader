@@ -1,0 +1,46 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "PathID",
+    "type": "int"
+  },
+  {
+    "name": "NodeIndex",
+    "type": "int"
+  },
+  {
+    "name": "ContinentID",
+    "type": "int"
+  },
+  {
+    "name": "LocX",
+    "type": "float"
+  },
+  {
+    "name": "LocY",
+    "type": "float"
+  },
+  {
+    "name": "LocZ",
+    "type": "float"
+  },
+  {
+    "name": "Flags",
+    "type": "int"
+  },
+  {
+    "name": "Delay",
+    "type": "int"
+  },
+  {
+    "name": "ArrivalEventID",
+    "type": "int"
+  },
+  {
+    "name": "DepartureEventID",
+    "type": "int"
+  }
+]

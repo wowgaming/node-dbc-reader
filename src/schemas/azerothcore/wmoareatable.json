@@ -1,0 +1,114 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "WMOID",
+    "type": "int"
+  },
+  {
+    "name": "NameSetID",
+    "type": "int"
+  },
+  {
+    "name": "WMOGroupID",
+    "type": "int"
+  },
+  {
+    "name": "SoundProviderPref",
+    "type": "int"
+  },
+  {
+    "name": "SoundProviderPrefUnderwater",
+    "type": "int"
+  },
+  {
+    "name": "AmbienceID",
+    "type": "int"
+  },
+  {
+    "name": "ZoneMusic",
+    "type": "int"
+  },
+  {
+    "name": "IntroSound",
+    "type": "int"
+  },
+  {
+    "name": "Flags",
+    "type": "int"
+  },
+  {
+    "name": "AreaTableID",
+    "type": "int"
+  },
+  {
+    "name": "AreaName_Lang_enUS",
+    "type": "string"
+  },
+  {
+    "name": "AreaName_Lang_enGB",
+    "type": "string"
+  },
+  {
+    "name": "AreaName_Lang_koKR",
+    "type": "string"
+  },
+  {
+    "name": "AreaName_Lang_frFR",
+    "type": "string"
+  },
+  {
+    "name": "AreaName_Lang_deDE",
+    "type": "string"
+  },
+  {
+    "name": "AreaName_Lang_enCN",
+    "type": "string"
+  },
+  {
+    "name": "AreaName_Lang_zhCN",
+    "type": "string"
+  },
+  {
+    "name": "AreaName_Lang_enTW",
+    "type": "string"
+  },
+  {
+    "name": "AreaName_Lang_zhTW",
+    "type": "string"
+  },
+  {
+    "name": "AreaName_Lang_esES",
+    "type": "string"
+  },
+  {
+    "name": "AreaName_Lang_esMX",
+    "type": "string"
+  },
+  {
+    "name": "AreaName_Lang_ruRU",
+    "type": "string"
+  },
+  {
+    "name": "AreaName_Lang_ptPT",
+    "type": "string"
+  },
+  {
+    "name": "AreaName_Lang_ptBR",
+    "type": "string"
+  },
+  {
+    "name": "AreaName_Lang_itIT",
+    "type": "string"
+  },
+  {
+    "name": "AreaName_Lang_Unk",
+    "type": "string"
+  },
+  {
+    "name": "AreaName_Lang_Mask",
+    "type": "uint"
+  }
+]

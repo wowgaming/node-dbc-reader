@@ -1,0 +1,22 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "DifficultySpellID_1",
+    "type": "int"
+  },
+  {
+    "name": "DifficultySpellID_2",
+    "type": "int"
+  },
+  {
+    "name": "DifficultySpellID_3",
+    "type": "int"
+  },
+  {
+    "name": "DifficultySpellID_4",
+    "type": "uint"
+  }
+]

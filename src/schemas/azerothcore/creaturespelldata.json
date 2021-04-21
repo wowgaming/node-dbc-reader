@@ -1,0 +1,38 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Spells_1",
+    "type": "int"
+  },
+  {
+    "name": "Spells_2",
+    "type": "int"
+  },
+  {
+    "name": "Spells_3",
+    "type": "int"
+  },
+  {
+    "name": "Spells_4",
+    "type": "int"
+  },
+  {
+    "name": "Availability_1",
+    "type": "int"
+  },
+  {
+    "name": "Availability_2",
+    "type": "int"
+  },
+  {
+    "name": "Availability_3",
+    "type": "int"
+  },
+  {
+    "name": "Availability_4",
+    "type": "int"
+  }
+]

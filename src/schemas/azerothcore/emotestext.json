@@ -1,0 +1,78 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Name",
+    "type": "string"
+  },
+  {
+    "name": "EmoteID",
+    "type": "int"
+  },
+  {
+    "name": "EmoteText_1",
+    "type": "int"
+  },
+  {
+    "name": "EmoteText_2",
+    "type": "int"
+  },
+  {
+    "name": "EmoteText_3",
+    "type": "int"
+  },
+  {
+    "name": "EmoteText_4",
+    "type": "int"
+  },
+  {
+    "name": "EmoteText_5",
+    "type": "int"
+  },
+  {
+    "name": "EmoteText_6",
+    "type": "int"
+  },
+  {
+    "name": "EmoteText_7",
+    "type": "int"
+  },
+  {
+    "name": "EmoteText_8",
+    "type": "int"
+  },
+  {
+    "name": "EmoteText_9",
+    "type": "int"
+  },
+  {
+    "name": "EmoteText_10",
+    "type": "int"
+  },
+  {
+    "name": "EmoteText_11",
+    "type": "int"
+  },
+  {
+    "name": "EmoteText_12",
+    "type": "int"
+  },
+  {
+    "name": "EmoteText_13",
+    "type": "int"
+  },
+  {
+    "name": "EmoteText_14",
+    "type": "int"
+  },
+  {
+    "name": "EmoteText_15",
+    "type": "int"
+  },
+  {
+    "name": "EmoteText_16",
+    "type": "int"
+  }
+]

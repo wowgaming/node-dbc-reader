@@ -1,0 +1,46 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "MapID",
+    "type": "int"
+  },
+  {
+    "name": "AreaID",
+    "type": "int"
+  },
+  {
+    "name": "AreaName",
+    "type": "string"
+  },
+  {
+    "name": "LocLeft",
+    "type": "float"
+  },
+  {
+    "name": "LocRight",
+    "type": "float"
+  },
+  {
+    "name": "LocTop",
+    "type": "float"
+  },
+  {
+    "name": "LocBottom",
+    "type": "float"
+  },
+  {
+    "name": "DisplayMapID",
+    "type": "int"
+  },
+  {
+    "name": "DefaultDungeonFloor",
+    "type": "int"
+  },
+  {
+    "name": "ParentWorldMapID",
+    "type": "int"
+  }
+]

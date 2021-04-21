@@ -1,0 +1,94 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "TabID",
+    "type": "int"
+  },
+  {
+    "name": "TierID",
+    "type": "int"
+  },
+  {
+    "name": "ColumnIndex",
+    "type": "int"
+  },
+  {
+    "name": "SpellRank_1",
+    "type": "int"
+  },
+  {
+    "name": "SpellRank_2",
+    "type": "int"
+  },
+  {
+    "name": "SpellRank_3",
+    "type": "int"
+  },
+  {
+    "name": "SpellRank_4",
+    "type": "int"
+  },
+  {
+    "name": "SpellRank_5",
+    "type": "int"
+  },
+  {
+    "name": "SpellRank_6",
+    "type": "int"
+  },
+  {
+    "name": "SpellRank_7",
+    "type": "int"
+  },
+  {
+    "name": "SpellRank_8",
+    "type": "int"
+  },
+  {
+    "name": "SpellRank_9",
+    "type": "int"
+  },
+  {
+    "name": "PrereqTalent_1",
+    "type": "int"
+  },
+  {
+    "name": "PrereqTalent_2",
+    "type": "int"
+  },
+  {
+    "name": "PrereqTalent_3",
+    "type": "int"
+  },
+  {
+    "name": "PrereqRank_1",
+    "type": "int"
+  },
+  {
+    "name": "PrereqRank_2",
+    "type": "int"
+  },
+  {
+    "name": "PrereqRank_3",
+    "type": "int"
+  },
+  {
+    "name": "Flags",
+    "type": "int"
+  },
+  {
+    "name": "RequiredSpellID",
+    "type": "int"
+  },
+  {
+    "name": "CategoryMask_1",
+    "type": "int"
+  },
+  {
+    "name": "CategoryMask_2",
+    "type": "int"
+  }
+]

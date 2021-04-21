@@ -1,0 +1,26 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "ActualType",
+    "type": "int"
+  },
+  {
+    "name": "GlobalstringBaseTag",
+    "type": "string"
+  },
+  {
+    "name": "Red",
+    "type": "uint"
+  },
+  {
+    "name": "Green",
+    "type": "uint"
+  },
+  {
+    "name": "Blue",
+    "type": "uint"
+  }
+]

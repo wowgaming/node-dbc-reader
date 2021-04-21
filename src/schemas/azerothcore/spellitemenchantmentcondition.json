@@ -1,0 +1,126 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Lt_OperandType_1",
+    "type": "uint"
+  },
+  {
+    "name": "Lt_OperandType_2",
+    "type": "uint"
+  },
+  {
+    "name": "Lt_OperandType_3",
+    "type": "uint"
+  },
+  {
+    "name": "Lt_OperandType_4",
+    "type": "uint"
+  },
+  {
+    "name": "Lt_OperandType_5",
+    "type": "uint"
+  },
+  {
+    "name": "Lt_Operand_1",
+    "type": "int"
+  },
+  {
+    "name": "Lt_Operand_2",
+    "type": "int"
+  },
+  {
+    "name": "Lt_Operand_3",
+    "type": "int"
+  },
+  {
+    "name": "Lt_Operand_4",
+    "type": "int"
+  },
+  {
+    "name": "Lt_Operand_5",
+    "type": "int"
+  },
+  {
+    "name": "Operator_1",
+    "type": "uint"
+  },
+  {
+    "name": "Operator_2",
+    "type": "uint"
+  },
+  {
+    "name": "Operator_3",
+    "type": "uint"
+  },
+  {
+    "name": "Operator_4",
+    "type": "uint"
+  },
+  {
+    "name": "Operator_5",
+    "type": "uint"
+  },
+  {
+    "name": "Rt_OperandType_1",
+    "type": "uint"
+  },
+  {
+    "name": "Rt_OperandType_2",
+    "type": "uint"
+  },
+  {
+    "name": "Rt_OperandType_3",
+    "type": "uint"
+  },
+  {
+    "name": "Rt_OperandType_4",
+    "type": "uint"
+  },
+  {
+    "name": "Rt_OperandType_5",
+    "type": "uint"
+  },
+  {
+    "name": "Rt_Operand_1",
+    "type": "int"
+  },
+  {
+    "name": "Rt_Operand_2",
+    "type": "int"
+  },
+  {
+    "name": "Rt_Operand_3",
+    "type": "int"
+  },
+  {
+    "name": "Rt_Operand_4",
+    "type": "int"
+  },
+  {
+    "name": "Rt_Operand_5",
+    "type": "int"
+  },
+  {
+    "name": "Logic_1",
+    "type": "uint"
+  },
+  {
+    "name": "Logic_2",
+    "type": "uint"
+  },
+  {
+    "name": "Logic_3",
+    "type": "uint"
+  },
+  {
+    "name": "Logic_4",
+    "type": "uint"
+  },
+  {
+    "name": "Logic_5",
+    "type": "uint"
+  }
+]

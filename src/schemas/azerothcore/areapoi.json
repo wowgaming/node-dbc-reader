@@ -1,0 +1,218 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Importance",
+    "type": "int"
+  },
+  {
+    "name": "Icon_1",
+    "type": "int"
+  },
+  {
+    "name": "Icon_2",
+    "type": "int"
+  },
+  {
+    "name": "Icon_3",
+    "type": "int"
+  },
+  {
+    "name": "Icon_4",
+    "type": "int"
+  },
+  {
+    "name": "Icon_5",
+    "type": "int"
+  },
+  {
+    "name": "Icon_6",
+    "type": "int"
+  },
+  {
+    "name": "Icon_7",
+    "type": "int"
+  },
+  {
+    "name": "Icon_8",
+    "type": "int"
+  },
+  {
+    "name": "Icon_9",
+    "type": "int"
+  },
+  {
+    "name": "FactionID",
+    "type": "int"
+  },
+  {
+    "name": "X",
+    "type": "float"
+  },
+  {
+    "name": "Y",
+    "type": "float"
+  },
+  {
+    "name": "Z",
+    "type": "float"
+  },
+  {
+    "name": "ContinentID",
+    "type": "int"
+  },
+  {
+    "name": "Flags",
+    "type": "int"
+  },
+  {
+    "name": "AreaID",
+    "type": "int"
+  },
+  {
+    "name": "Name_Lang_enUS",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_enGB",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_koKR",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_frFR",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_deDE",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_enCN",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_zhCN",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_enTW",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_zhTW",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_esES",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_esMX",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_ruRU",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_ptPT",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_ptBR",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_itIT",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_Unk",
+    "type": "string"
+  },
+  {
+    "name": "Name_Lang_Mask",
+    "type": "uint"
+  },
+  {
+    "name": "Description_Lang_enUS",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_enGB",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_koKR",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_frFR",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_deDE",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_enCN",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_zhCN",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_enTW",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_zhTW",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_esES",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_esMX",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_ruRU",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_ptPT",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_ptBR",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_itIT",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_Unk",
+    "type": "string"
+  },
+  {
+    "name": "Description_Lang_Mask",
+    "type": "uint"
+  },
+  {
+    "name": "WorldStateID",
+    "type": "int"
+  },
+  {
+    "name": "WorldMapLink",
+    "type": "int"
+  }
+]

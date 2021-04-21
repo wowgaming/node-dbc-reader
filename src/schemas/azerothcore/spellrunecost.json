@@ -1,0 +1,22 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Blood",
+    "type": "int"
+  },
+  {
+    "name": "Unholy",
+    "type": "int"
+  },
+  {
+    "name": "Frost",
+    "type": "int"
+  },
+  {
+    "name": "RunicPower",
+    "type": "int"
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "MapAreaID",
+    "type": "int"
+  },
+  {
+    "name": "AreaID_1",
+    "type": "int"
+  },
+  {
+    "name": "AreaID_2",
+    "type": "int"
+  },
+  {
+    "name": "AreaID_3",
+    "type": "int"
+  },
+  {
+    "name": "AreaID_4",
+    "type": "int"
+  },
+  {
+    "name": "MapPointX",
+    "type": "int"
+  },
+  {
+    "name": "MapPointY",
+    "type": "int"
+  },
+  {
+    "name": "TextureName",
+    "type": "string"
+  },
+  {
+    "name": "TextureWidth",
+    "type": "int"
+  },
+  {
+    "name": "TextureHeight",
+    "type": "int"
+  },
+  {
+    "name": "OffsetX",
+    "type": "int"
+  },
+  {
+    "name": "OffsetY",
+    "type": "int"
+  },
+  {
+    "name": "HitRectTop",
+    "type": "int"
+  },
+  {
+    "name": "HitRectLeft",
+    "type": "int"
+  },
+  {
+    "name": "HitRectBottom",
+    "type": "int"
+  },
+  {
+    "name": "HitRectRight",
+    "type": "int"
+  }
+]

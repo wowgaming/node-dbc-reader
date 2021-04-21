@@ -1,0 +1,30 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "TransportID",
+    "type": "int"
+  },
+  {
+    "name": "TimeIndex",
+    "type": "int"
+  },
+  {
+    "name": "PosX",
+    "type": "float"
+  },
+  {
+    "name": "PosY",
+    "type": "float"
+  },
+  {
+    "name": "PosZ",
+    "type": "float"
+  },
+  {
+    "name": "SequenceID",
+    "type": "int"
+  }
+]

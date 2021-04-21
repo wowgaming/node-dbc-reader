@@ -1,0 +1,58 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Faction",
+    "type": "int"
+  },
+  {
+    "name": "Flags",
+    "type": "int"
+  },
+  {
+    "name": "FactionGroup",
+    "type": "int"
+  },
+  {
+    "name": "FriendGroup",
+    "type": "int"
+  },
+  {
+    "name": "EnemyGroup",
+    "type": "int"
+  },
+  {
+    "name": "Enemies_1",
+    "type": "int"
+  },
+  {
+    "name": "Enemies_2",
+    "type": "int"
+  },
+  {
+    "name": "Enemies_3",
+    "type": "int"
+  },
+  {
+    "name": "Enemies_4",
+    "type": "int"
+  },
+  {
+    "name": "Friend_1",
+    "type": "int"
+  },
+  {
+    "name": "Friend_2",
+    "type": "int"
+  },
+  {
+    "name": "Friend_3",
+    "type": "int"
+  },
+  {
+    "name": "Friend_4",
+    "type": "int"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "ContinentID",
+    "type": "int"
+  },
+  {
+    "name": "X",
+    "type": "float"
+  },
+  {
+    "name": "Y",
+    "type": "float"
+  },
+  {
+    "name": "Z",
+    "type": "float"
+  },
+  {
+    "name": "FalloffStart",
+    "type": "float"
+  },
+  {
+    "name": "FalloffEnd",
+    "type": "float"
+  },
+  {
+    "name": "LightParamsID_1",
+    "type": "int"
+  },
+  {
+    "name": "LightParamsID_2",
+    "type": "int"
+  },
+  {
+    "name": "LightParamsID_3",
+    "type": "int"
+  },
+  {
+    "name": "LightParamsID_4",
+    "type": "int"
+  },
+  {
+    "name": "LightParamsID_5",
+    "type": "int"
+  },
+  {
+    "name": "LightParamsID_6",
+    "type": "int"
+  },
+  {
+    "name": "LightParamsID_7",
+    "type": "int"
+  },
+  {
+    "name": "LightParamsID_8",
+    "type": "int"
+  }
+]

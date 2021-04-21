@@ -1,0 +1,46 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Difficulty_1",
+    "type": "int"
+  },
+  {
+    "name": "Difficulty_2",
+    "type": "int"
+  },
+  {
+    "name": "Difficulty_3",
+    "type": "int"
+  },
+  {
+    "name": "Difficulty_4",
+    "type": "int"
+  },
+  {
+    "name": "Difficulty_5",
+    "type": "int"
+  },
+  {
+    "name": "Difficulty_6",
+    "type": "int"
+  },
+  {
+    "name": "Difficulty_7",
+    "type": "int"
+  },
+  {
+    "name": "Difficulty_8",
+    "type": "int"
+  },
+  {
+    "name": "Difficulty_9",
+    "type": "int"
+  },
+  {
+    "name": "Difficulty_10",
+    "type": "int"
+  }
+]

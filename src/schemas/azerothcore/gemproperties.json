@@ -1,0 +1,22 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Enchant_Id",
+    "type": "int"
+  },
+  {
+    "name": "Maxcount_Inv",
+    "type": "int"
+  },
+  {
+    "name": "Maxcount_Item",
+    "type": "int"
+  },
+  {
+    "name": "Type",
+    "type": "int"
+  }
+]

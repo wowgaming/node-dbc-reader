@@ -1,0 +1,42 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "SoundID",
+    "type": "int"
+  },
+  {
+    "name": "Camera_1",
+    "type": "int"
+  },
+  {
+    "name": "Camera_2",
+    "type": "int"
+  },
+  {
+    "name": "Camera_3",
+    "type": "int"
+  },
+  {
+    "name": "Camera_4",
+    "type": "int"
+  },
+  {
+    "name": "Camera_5",
+    "type": "int"
+  },
+  {
+    "name": "Camera_6",
+    "type": "int"
+  },
+  {
+    "name": "Camera_7",
+    "type": "int"
+  },
+  {
+    "name": "Camera_8",
+    "type": "int"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "Duration",
+    "type": "int"
+  },
+  {
+    "name": "DurationPerLevel",
+    "type": "int"
+  },
+  {
+    "name": "MaxDuration",
+    "type": "int"
+  }
+]

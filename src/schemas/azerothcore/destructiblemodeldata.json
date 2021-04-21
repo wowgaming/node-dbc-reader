@@ -1,0 +1,78 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "State0Wmo",
+    "type": "int"
+  },
+  {
+    "name": "State0DestructionDoodadSet",
+    "type": "int"
+  },
+  {
+    "name": "State0ImpactEffectDoodadSet",
+    "type": "int"
+  },
+  {
+    "name": "State0AmbientDoodadSet",
+    "type": "int"
+  },
+  {
+    "name": "State1Wmo",
+    "type": "int"
+  },
+  {
+    "name": "State1DestructionDoodadSet",
+    "type": "int"
+  },
+  {
+    "name": "State1ImpactEffectDoodadSet",
+    "type": "int"
+  },
+  {
+    "name": "State1AmbientDoodadSet",
+    "type": "int"
+  },
+  {
+    "name": "State2Wmo",
+    "type": "int"
+  },
+  {
+    "name": "State2DestructionDoodadSet",
+    "type": "int"
+  },
+  {
+    "name": "State2ImpactEffectDoodadSet",
+    "type": "int"
+  },
+  {
+    "name": "State2AmbientDoodadSet",
+    "type": "int"
+  },
+  {
+    "name": "State3Wmo",
+    "type": "int"
+  },
+  {
+    "name": "State3DestructionDoodadSet",
+    "type": "int"
+  },
+  {
+    "name": "State3ImpactEffectDoodadSet",
+    "type": "int"
+  },
+  {
+    "name": "State3AmbientDoodadSet",
+    "type": "int"
+  },
+  {
+    "name": "Field17",
+    "type": "int"
+  },
+  {
+    "name": "Field18",
+    "type": "int"
+  }
+]
