@@ -54,7 +54,7 @@ function searchInRow(row, search, fields, isAdvanced = false) {
 }
 
 function toSql(fileName, row) {
-  let tableName = `${fileName}_dbc`;
+  let tableName = `${fileName}_dbc`.toLowerCase();
   let values = Object.values(row).map(v => typeof v === "string" ? `"${v}"` : v);
   let keys = Object.keys(row).map(v => "`" + v + "`");
   return `INSERT IGNORE INTO ${tableName} (${keys})\n VALUES (${values});`;
