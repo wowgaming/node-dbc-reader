@@ -24,27 +24,27 @@
     "type": "uint"
   },
   {
-    "name": "AttributesExB",
+    "name": "AttributesEx2",
     "type": "uint"
   },
   {
-    "name": "AttributesExC",
+    "name": "AttributesEx3",
     "type": "uint"
   },
   {
-    "name": "AttributesExD",
+    "name": "AttributesEx4",
     "type": "uint"
   },
   {
-    "name": "AttributesExE",
+    "name": "AttributesEx5",
     "type": "uint"
   },
   {
-    "name": "AttributesExF",
+    "name": "AttributesEx6",
     "type": "uint"
   },
   {
-    "name": "AttributesExG",
+    "name": "AttributesEx7",
     "type": "uint"
   },
   {
