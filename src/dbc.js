@@ -1,38 +1,34 @@
 'use strict';
 
-var fsp = require('fs').promises;
-var path = require('path');
-var Schema = require(path.join(__dirname, 'schema'));
-var MAGIC_NUMBER = 1128416343;
+const fsp = require('fs').promises;
+const path = require('path');
+const Schema = require(path.join(__dirname, 'schema'));
+const MAGIC_NUMBER = 1128416343;
 
 function readFile (filename, options) {
-	return fsp.readFile(filename, options).then(function (data) {
-		return data
-	});
+	return fsp.readFile(filename, options).then(data => data);
 }
 
-function toCSV (array) {
-	var csv = '';
-	var rows;
-	var header = '';
-	var lineBreak = "\n";
-	var delimiter = ",";
+function toCSV(array) {
+	// let rows;
+	const lineBreak = "\n";
+	const delimiter = ",";
 
-	header = Object.keys(array[0]);
+	const header = Object.keys(array[0]);
 
 	array.unshift(header);
 
-	csv = array.map(function (obj) {
-	  return Object.keys(obj).map(function (key) {
-	    return obj[key];
-	  }).join(delimiter);
-	}).join(lineBreak)
+	const csv = array
+		.map(obj => Object.keys(obj)
+			.map(key => obj[key])
+			.join(delimiter))
+		.join(lineBreak);
 
 	return csv;
 }
 
-function DBC (path, schemaName) {
-	if(!schemaName) {
+function DBC(path, schemaName) {
+	if (!schemaName) {
 		throw new Error('You must define a schemaName before continue.');
 	}
 
@@ -40,33 +36,31 @@ function DBC (path, schemaName) {
 	this.schemaName = schemaName;
 }
 
-DBC.prototype.getSchema = function () {
-	var schemaName = this.schemaName;
-	var schema = require(path.join(__dirname, 'schemas', schemaName + '.json'));
+DBC.prototype.getSchema = function() {
+	const schemaName = this.schemaName;
+	const schema = require(path.join(__dirname, 'schemas', schemaName + '.json'));
 
 	return new Schema(schema);
 };
 
-DBC.prototype.toJSON = function () {
+DBC.prototype.toJSON = function() {
 	return this.read();
 };
 
-DBC.prototype.toCSV = function () {
-	return this.read().then(function (rows) {
-		return toCSV(rows);
-	});
+DBC.prototype.toCSV = function() {
+	return this.read().then(rows => toCSV(rows));
 };
 
 // Put all the buffer strings in an array.
-DBC.prototype.parseStringBlock = function (buffer) {
-	var pointer = 0;
-	var currentString = '';
-	var strings = [];
+DBC.prototype.parseStringBlock = function(buffer) {
+	let pointer = 0;
+	let currentString = '';
+	let strings = [];
 
-	for(var i=0; i<buffer.length; i++) {
-		var byte = buffer[i];
+	for (let i = 0; i < buffer.length; i++) {
+		let byte = buffer[i];
 
-		if(byte === 0) {
+		if (byte === 0) {
 			strings[pointer - currentString.length] = currentString;
 			currentString = '';
 		} else {
@@ -79,23 +73,23 @@ DBC.prototype.parseStringBlock = function (buffer) {
 	return strings;
 };
 
-DBC.prototype.read = function () {
-	var dbc = this;
-	var schema = this.getSchema();
+DBC.prototype.read = function() {
+	const dbc = this;
+	const schema = this.getSchema();
 
 	this.signature = '';
 	this.records = 0;
 	this.fields = 0;
 	this.recordSize = 0;
 
-	return readFile(this.path).then(function (buffer) {
+	return readFile(this.path).then(buffer => {
 		dbc.signature = buffer.toString('utf8', 0, 4);
 
-		if(dbc.signature !== 'WDBC') {
+		if (dbc.signature !== 'WDBC') {
 			throw new Error('DBC \'' + path + '\' has an invalid signature and is therefore not valid');
 		}
 
-		if(buffer.readUInt32LE(0) !== MAGIC_NUMBER) {
+		if (buffer.readUInt32LE(0) !== MAGIC_NUMBER) {
       throw new Error("File isn't valid DBC (missing magic number: " + MAGIC_NUMBER + ")");
 		}
 
@@ -104,45 +98,53 @@ DBC.prototype.read = function () {
 		dbc.recordSize = buffer.readUInt32LE(12);
 
     /**@type {buffer} */
-		var recordBlock;
+		let recordBlock;
     /**@type {buffer} */
-		var recordData;
-		var stringBlockPosition = buffer.length - buffer.readUInt32LE(16);
-		var strings = dbc.parseStringBlock(buffer.slice(stringBlockPosition));
+		let recordData;
+		let stringBlockPosition = buffer.length - buffer.readUInt32LE(16);
+		let strings = dbc.parseStringBlock(buffer.slice(stringBlockPosition));
 
 		recordBlock = buffer.slice(20, stringBlockPosition);
 
-		var rows;
+		let rows;
 
 		dbc.rows = rows = [];
 
-		for(var i=0; i<dbc.records; i++) {
-			var row = {};
+		for (let i = 0; i < dbc.records; i++) {
+			let row = {};
 			recordData = recordBlock.slice(i * dbc.recordSize, (i + 1) * dbc.recordSize);
-			var pointer = 0;
+			let pointer = 0;
 
 			schema.getFields().forEach(function (key, index) {
-				var value;
-				var type = key.type;
-				var rowName = key.name || 'field_' + (index + 1);
+				let value;
+				let type = key.type;
+				let rowName = key.name || 'field_' + (index + 1);
 
-				if(type === 'int') {
-					value = recordData.readInt32LE(pointer)
-				} else if (type === 'uint') {
-					value = recordData.readUInt32LE(pointer);
-        } else if (type === 'float') {
-					value = recordData.readFloatLE(pointer);
-				} else if (type === 'byte') {
-					value = recordData.readInt8(pointer);
-				} else if (type === 'string') {
-					value = strings[recordData.readInt32LE(pointer)];
-				}
+				switch(type) {
+					case 'int':
+						value = recordData.readInt32LE(pointer)
+						break;
+					case 'uint':
+						value = recordData.readUInt32LE(pointer);
+						break;
+					case 'float':
+						value = recordData.readFloatLE(pointer);
+						break;
+					case 'byte':
+						value = recordData.readInt8(pointer);
+						pointer += 1;
+						break;
+					case 'string':
+						value = strings[recordData.readInt32LE(pointer)];
+						break;
+					default:
+						value = recordData.readInt32LE(pointer)
+						break;
+					}
 
 				row[rowName] = value;
 
-				if(type === 'byte') {
-					pointer += 1;
-				} else if (type !== 'null' && type !== 'byte' && type !== 'localization') {
+				if (type !== 'byte' && type !== 'null' && type !== 'localization') {
 					pointer += 4;
 				}
 			});
