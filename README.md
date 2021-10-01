@@ -10,17 +10,23 @@ You need latest LTS [nodejs](https://nodejs.org/en/)
 
 ## Install
 
-`npm install`
+```
+npm install
+```
 
 ## Getting started
 
 Run this command to read the instructions
 
-`npm run start -- --help`
+```
+npm run start -- --help
+```
 
 ### Example usage
 
-`npm run start -- --search=Wrath --columns=Name_Lang_enUS --out-type=sql --file=output.sql Spell`
+```
+npm run start -- --search=Wrath --columns=Name_Lang_enUS --out-type=sql --file=output.sql Spell
+```
 
 ### Advanced search
 
