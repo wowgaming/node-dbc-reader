@@ -118,7 +118,7 @@ DBC.prototype.read = function() {
 			schema.getFields().forEach(function (key, index) {
 				let value;
 				let type = key.type;
-				let rowName = key.name || 'field_' + (index + 1);
+				let colName = key.name || 'field_' + (index + 1);
 
 				switch(type) {
 					case 'int':
@@ -142,7 +142,7 @@ DBC.prototype.read = function() {
 						break;
 					}
 
-				row[rowName] = value;
+				row[colName] = value;
 
 				if (type !== 'byte' && type !== 'null' && type !== 'localization') {
 					pointer += 4;
