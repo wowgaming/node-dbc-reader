@@ -1,0 +1,34 @@
+[
+    {
+        "name": "ID",
+        "type": "int"
+    },
+    {
+        "name": "SkillID",
+        "type": "int"
+    },
+    {
+        "name": "RaceMask",
+        "type": "int"
+    },
+    {
+        "name": "ClassMask",
+        "type": "int"
+    },
+    {
+        "name": "Flags",
+        "type": "int"
+    }
+    ,{
+        "name": "MinLevel",
+        "type": "int"
+    },
+    {
+        "name": "SkillTierID",
+        "type": "int"
+    },
+    {
+        "name": "SkillCostIndex",
+        "type": "int"
+    }
+]
