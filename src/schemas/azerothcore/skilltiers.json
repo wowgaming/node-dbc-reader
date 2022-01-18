@@ -1,0 +1,134 @@
+[
+    {
+      "name": "ID",
+      "type": "int"
+    },
+    {
+      "name": "Cost_1",
+      "type": "int"
+    },
+    {
+      "name": "Cost_2",
+      "type": "int"
+    },
+    {
+      "name": "Cost_3",
+      "type": "int"
+    },
+    {
+      "name": "Cost_4",
+      "type": "int"
+    },
+    {
+      "name": "Cost_5",
+      "type": "int"
+    },
+    {
+      "name": "Cost_6",
+      "type": "int"
+    },
+    {
+      "name": "Cost_7",
+      "type": "int"
+    },
+    {
+      "name": "Cost_8",
+      "type": "int"
+    },
+    {
+      "name": "Cost_9",
+      "type": "int"
+    },
+    {
+      "name": "Cost_10",
+      "type": "int"
+    },
+    {
+      "name": "Cost_11",
+      "type": "int"
+    },
+    {
+      "name": "Cost_12",
+      "type": "int"
+    },
+    {
+      "name": "Cost_13",
+      "type": "int"
+    },
+    {
+      "name": "Cost_14",
+      "type": "int"
+    },
+    {
+      "name": "Cost_15",
+      "type": "int"
+    },
+    {
+      "name": "Cost_16",
+      "type": "int"
+    },
+    {
+      "name": "Value_1",
+      "type": "int"
+    },
+    {
+      "name": "Value_2",
+      "type": "int"
+    },
+    {
+      "name": "Value_3",
+      "type": "int"
+    },
+    {
+      "name": "Value_4",
+      "type": "int"
+    },
+    {
+      "name": "Value_5",
+      "type": "int"
+    },
+    {
+      "name": "Value_6",
+      "type": "int"
+    },
+    {
+      "name": "Value_7",
+      "type": "int"
+    },
+    {
+      "name": "Value_8",
+      "type": "int"
+    },
+    {
+      "name": "Value_9",
+      "type": "int"
+    },
+    {
+      "name": "Value_10",
+      "type": "int"
+    },
+    {
+      "name": "Value_11",
+      "type": "int"
+    },
+    {
+      "name": "Value_12",
+      "type": "int"
+    },
+    {
+      "name": "Value_13",
+      "type": "int"
+    },
+    {
+      "name": "Value_14",
+      "type": "int"
+    },
+    {
+      "name": "Value_15",
+      "type": "int"
+    },
+    {
+      "name": "Value_16",
+      "type": "int"
+    }
+  ]
