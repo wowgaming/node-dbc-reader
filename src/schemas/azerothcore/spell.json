@@ -916,15 +916,15 @@
     "type": "int"
   },
   {
-    "name": "Field227",
+    "name": "EffectBonusMultiplier_1",
     "type": "float"
   },
   {
-    "name": "Field228",
+    "name": "EffectBonusMultiplier_2",
     "type": "float"
   },
   {
-    "name": "Field229",
+    "name": "EffectBonusMultiplier_3",
     "type": "float"
   },
   {
