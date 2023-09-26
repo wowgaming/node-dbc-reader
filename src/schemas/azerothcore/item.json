@@ -1,0 +1,34 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "ClassID",
+    "type": "int"
+  },
+  {
+    "name": "SubclassID",
+    "type": "int"
+  },
+  {
+    "name": "Sound_Override_Subclassid",
+    "type": "int"
+  },
+  {
+    "name": "Material",
+    "type": "int"
+  },
+  {
+    "name": "DisplayInfoID",
+    "type": "int"
+  },
+  {
+    "name": "InventoryType",
+    "type": "int"
+  },
+  {
+    "name": "SheatheType",
+    "type": "int"
+  }
+]
