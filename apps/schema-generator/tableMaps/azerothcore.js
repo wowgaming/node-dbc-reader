@@ -14,6 +14,7 @@ function getTableMap() {
     "bankbagslotprices_dbc",
     "barbershopstyle_dbc",
     "battlemasterlist_dbc",
+    "charbaseinfo_dbc",
     "charstartoutfit_dbc",
     "chartitles_dbc",
     "chatchannels_dbc",
