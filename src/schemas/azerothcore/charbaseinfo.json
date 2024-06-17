@@ -1,0 +1,14 @@
+[
+  {
+    "name": "ID",
+    "type": "int"
+  },
+  {
+    "name": "RaceID",
+    "type": "uint"
+  },
+  {
+    "name": "ClassID",
+    "type": "uint"
+  }
+]
